@@ -95,7 +95,9 @@ Pergunta ao cadastrador se ele deseja castrar um novo usuário.
 Referências Bibliográficas
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 [Tabela do INSS - 2023](https://blog.convenia.com.br/tabela-do-inss-para-2023-confira-os-reajustes/)
-https://www.vagas.com.br/profissoes/como-calcular-ferias-calculo/#:~:text=No%20c%C3%A1lculo%20de%20f%C3%A9rias%2C%20%C3%A9,somar%201%2F3%20dele%20mesmo.
+
+[Como fazer calculo de férias - 2023](https://www.vagas.com.br/profissoes/como-calcular-ferias-calculo/#:~:text=No%20c%C3%A1lculo%20de%20f%C3%A9rias,%20%C3%A9,somar%201/3%20dele%20mesmo.)
+
 https://www.creditas.com/exponencial/tabela-imposto-de-renda/
 https://meutudo.com.br/blog/calculadoras/calculo-fgts/#:~:text=O%20c%C3%A1lculo%20mensal%20do%20FGTS,a%20antecipa%C3%A7%C3%A3o%20do%20recolhimento%20rescis%C3%B3rio).
 https://economia.uol.com.br/noticias/redacao/2023/03/18/fgts-entenda-como-e-calculada-multa-de-40-em-caso-de-demissao.htm#:~:text=No%20caso%20da%20demiss%C3%A3o%20sem,de%20R%24%2040.000%2C00.
