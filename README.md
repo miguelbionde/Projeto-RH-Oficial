@@ -45,3 +45,14 @@ Retornando o valor da função FGTS na finalidade e evitar erros de repetição 
 
 Função FGTS:
 Função feita para facilitar a vida do usuário calculando automaticamente o FGTS(Fundo de Garantia do Tempo de Serviço).
+
+Função retorno_multa_FGTS
+retorna o valor da variavel multa.
+
+Função multa_FGTS
+Ele calculará a multa do FGTS.
+
+Função seguro_desemprego
+Diz ao usuario se o colaborador tem ou não direito ao seguro desemprego.
+
+Função retorno_vale_transporte
