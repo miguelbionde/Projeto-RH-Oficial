@@ -46,13 +46,44 @@ Retornando o valor da função FGTS na finalidade e evitar erros de repetição 
 Função FGTS:
 Função feita para facilitar a vida do usuário calculando automaticamente o FGTS(Fundo de Garantia do Tempo de Serviço).
 
-Função retorno_multa_FGTS
+Função retorno_multa_FGTS:
 retorna o valor da variavel multa.
 
-Função multa_FGTS
+Função multa_FGTS:
 Ele calculará a multa do FGTS.
 
-Função seguro_desemprego
-Diz ao usuario se o colaborador tem ou não direito ao seguro desemprego.
+Função seguro_desemprego:
+Diz ao usuário se o colaborador tem ou não direito ao seguro desemprego.
 
-Função retorno_vale_transporte
+Função retorno_vale_transporte:
+retorna o valor de desconto_vale_trans, e diz se vale a pena ou não ultilizar este benefício.
+
+Função desconto_vale_transporte:
+Nesta função o usuário simula o quanto o colaborador paga de vale transporte.
+
+Função calculo_pis:
+Calcula se o empregado tem ou não direito ao pis se sim quanto receberá.
+
+Função retorno_adicional_noturno:
+retorna o valor da variável valor_adicional_noturno.
+
+Função adicional_noturno:
+Faz o calculo de quanto o funcionário vai receber nesse mês de adicional noturno.
+
+Função retorno_ad_periculosidade
+Retorna o valor da variável valor_adicional_periculosidade.
+
+Função adicional_periculosidade
+A função irá calcular quanto o empregado receberá neste mês de adicional de insalubridade.
+
+Função retorno_ad_horas_extras
+retorna o valor da variável valor_adicional_horas_extras.
+
+Função adicional_horas_extras
+Será calculada o valor dao adicional de horas extras deste mês.
+
+Função simulacao_completa
+Faz a simulação do contra cheque do usuário, possuindo salário bruto, descontos, adicionais e salário liquido.
+
+Função repetidor_cadastro
+Aqui o colaborador irá ser cadastradado e será arquivado no computador.
