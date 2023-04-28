@@ -77,79 +77,68 @@ ________________________________________________________________________________
 
     - Será calculada o valor dao adicional de horas extras deste mês.
 _____________________________________________________________________________________________________________________________
+
+ ## FUNÇÕES QUE RETORNAM OS CALCULOS
  
- ### Função Retorno_Calculo_Desconto_INSS
+  ### Função Retorno_Calculo_Desconto_INSS
  
     - É aonde o valor da função desconto_inss irá voltar o valor do desconto.
-_____________________________________________________________________________________________________________________________
  
- ### Função Retorno_Calculo_Adicional_Ferias
+  ### Função Retorno_Calculo_Adicional_Ferias
  
     - Função onde retornará o valor da função férias
-_____________________________________________________________________________________________________________________________
- 
-_____________________________________________________________________________________________________________________________
- ### Função Retorno_Calculo_Imposto_de_Renda
+
+  ### Função Retorno_Calculo_Imposto_de_Renda
  
     - Ele retornará o valor da variável IR na função imposto de renda.
-_____________________________________________________________________________________________________________________________
- 
-_____________________________________________________________________________________________________________________________
- ### Função Retorno_Calculo_Desconto_FGTS
+
+  ### Função Retorno_Calculo_Desconto_FGTS
 
     - Retornando o valor da função FGTS na finalidade e evitar erros de repetição e para organização.
-_____________________________________________________________________________________________________________________________
 
-_____________________________________________________________________________________________________________________________
- ### Função Retorno_Calculo_Multa_FGTS
+  ### Função Retorno_Calculo_Multa_FGTS
 
     - Retorna o valor da variavel multa.
+    
+  ### Função Retorno_Calculo_Desconto_Vale_Transporte
+
+    - Retorna o valor de desconto_vale_trans, e diz se vale a pena ou não ultilizar este benefício.
+ 
+  ### Função Retorno_Calculo_Adicional_Noturno
+
+    - Retorna o valor da variável valor_adicional_noturno.
+    
+  ### Função Retorno_Calculo_Adicional_Periculosidade
+
+    - Retorna o valor da variável valor_adicional_periculosidade.
+    
+  ### Função Retorno_Calculo_Adicional_Horas_Extras
+
+    - Retorna o valor da variável valor_adicional_horas_extras.  
 _____________________________________________________________________________________________________________________________
  
-_____________________________________________________________________________________________________________________________
+ ## FUNÇÕES QUE FAZEM UMA SIMULAÇÃO
+ 
  ### Função Simulacao_Seguro_Desemprego
 
     - Diz ao usuário se o colaborador tem ou não direito ao seguro desemprego.
-_____________________________________________________________________________________________________________________________
- ### Função Retorno_Calculo_Desconto_Vale_Transporte
 
-    - Retorna o valor de desconto_vale_trans, e diz se vale a pena ou não ultilizar este benefício.
-_____________________________________________________________________________________________________________________________
-
-_____________________________________________________________________________________________________________________________
  ### Função Simulacao_PIS
 
     - Calcula se o empregado tem ou não direito ao pis se sim quanto receberá.
-_____________________________________________________________________________________________________________________________
- ### Função Retorno_Calculo_Adicional_Noturno
 
-    - Retorna o valor da variável valor_adicional_noturno.
-_____________________________________________________________________________________________________________________________
-
-_____________________________________________________________________________________________________________________________
- ### Função Retorno_Calculo_Adicional_Periculosidade
-
-    - Retorna o valor da variável valor_adicional_periculosidade.
-_____________________________________________________________________________________________________________________________
-
-_____________________________________________________________________________________________________________________________
- ### Função Retorno_Calculo_Adicional_Horas_Extras
-
-    - Retorna o valor da variável valor_adicional_horas_extras.
-_____________________________________________________________________________________________________________________________
- ### Função Calculo_Adicional_Horas_Extras
-
-    - Será calculada o valor dao adicional de horas extras deste mês.
-_____________________________________________________________________________________________________________________________
  ### Simulacao_Completa
 
     - Faz a simulação do contra cheque do usuário, possuindo salário bruto, descontos, adicionais e 
       salário liquido.
 _____________________________________________________________________________________________________________________________
+
+## FUNÇÕES QUE FAZEM O PROCESSO DE CADASTRAR UM FUNCIONÁRIO
+
  ### Função Cadastrar_Funcionarios
 
     - Aqui o colaborador irá ser cadastradado e será arquivado no computador.
-_____________________________________________________________________________________________________________________________
+    
  ### Volta_Cadastro
 
     - Pergunta ao cadastrador se ele deseja castrar um novo usuário.
