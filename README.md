@@ -21,7 +21,7 @@
   ### Função volta_menu
 
     - Função para que no fim de algum simulador o usuário tenha a opção de refaze-lo ou voltar para o menu.
-_____________________________________________________________________________________________________________________________
+
 
  ## FUNÇÕES CASO A OPÇÃO ESCOLHIDA NÃO É COMPATIVEL
  
