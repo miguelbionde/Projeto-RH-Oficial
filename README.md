@@ -23,8 +23,9 @@
     - Função para que no fim de algum simulador o usuário tenha a opção de refaze-lo ou voltar para o menu.
 _____________________________________________________________________________________________________________________________
  ## FUNÇÕES CASO A OPÇÃO ESCOLHIDA NÃO É COMPATIVEL
-     (Se o usuário colocar uma opção não de acordo, o programa vai ficar repitindo
-      até que coloque de forma correta.)
+ 
+   (Se o usuário colocar uma opção não de acordo, o programa vai ficar repitindo
+    até que coloque de forma correta.)
       
  ### Função Loop_Insalubridade
 
