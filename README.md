@@ -1,8 +1,13 @@
 # Projeto-RH-Oficial
  Explicação sobre a utilização das funções
 _____________________________________________________________________________________________________________________________
- ### Função inicio                                                                                                                                                                                                                                             
-    - Na função início é colocado os dados base que serão usados em outras funções.                       
+ ## Funções que estão ligadas as MENU do programa.
+  ### Função inicio                                                                                                                                                                                                                                             
+    - Na função início é colocado os dados base que serão usados em outras funções.
+    
+  ### Função inicio_menu
+ 
+    - Onde o usuário ira selecionar algum dos simuladores do sistema RH.
 _____________________________________________________________________________________________________________________________
  ### Função Loop_Insalubridade
 
