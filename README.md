@@ -4,8 +4,9 @@ Explicação sobre a utilização das funções
 ### Função inicio:
 
 Na função início é colocado os dados base que serão usados em outras funções.
+_______________________________________________________________________________________________________
+### Função Loop_Insalubridade: 
 
-Função Loop_Insalubridade: 
 É uma função para evitar que o usuário coloque alguma opção não compatível.
 
 Função Loop_Vale_Transporte:
