@@ -9,31 +9,32 @@
   ### Função inicio_menu
  
     - Onde o usuário ira selecionar algum dos simuladores do sistema RH.
+ 
+  ### Função menu
+
+    - Mostra as opções de simulador disponíveis para o usuário.
+    
+  ### Função seletor_programa
+ 
+    - Foi usado um escolha caso para selecionar a opção escolhida.
+    
+  ### Função volta_menu
+
+    - Função para que no fim de algum simulador o usuário tenha a opção de refaze-lo ou voltar para o menu.
 _____________________________________________________________________________________________________________________________
+ ## FUNÇÕES CASO A OPÇÃO ESCOLHIDA NÃO É COMPATIVEL
+     (Se o usuário colocar uma opção não de acordo, o programa vai ficar repitindo
+      até que coloque de forma correta.)
+      
  ### Função Loop_Insalubridade
 
     - É uma função para evitar que o usuário coloque alguma opção não compatível.
-_____________________________________________________________________________________________________________________________
+    
  ### Função Loop_Vale_Transporte
 
     - É uma função para evitar que o usuário coloque alguma opção não compatível.
 _____________________________________________________________________________________________________________________________
- ### Função inicio_menu
- 
-    - Onde o usuário ira selecionar algum dos simuladores do sistema RH.
-_____________________________________________________________________________________________________________________________
- ### Função menu
 
-    - Mostra as opções de simulador disponíveis para o usuário.
-_____________________________________________________________________________________________________________________________
- ### Função seletor_programa
- 
-    - Foi usado um escolha caso para selecionar a opção escolhida.
-_____________________________________________________________________________________________________________________________
- ### Função volta_menu
-
-    - Função para que no fim de algum simulador o usuário tenha a opção de refaze-lo ou voltar para o menu.
-_____________________________________________________________________________________________________________________________
  ### Função Retorno_Calculo_Desconto_INSS
  
     - É aonde o valor da função desconto_inss irá voltar o valor do desconto.
@@ -121,11 +122,11 @@ ________________________________________________________________________________
     - Faz a simulação do contra cheque do usuário, possuindo salário bruto, descontos, adicionais e 
       salário liquido.
 _____________________________________________________________________________________________________________________________
- ### Função Repetidor_Cadastro
+ ### Função Cadastrar_Funcionarios
 
     - Aqui o colaborador irá ser cadastradado e será arquivado no computador.
 _____________________________________________________________________________________________________________________________
- ### volta_Cadastro
+ ### Volta_Cadastro
 
     - Pergunta ao cadastrador se ele deseja castrar um novo usuário.
 _____________________________________________________________________________________________________________________________
