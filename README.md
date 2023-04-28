@@ -1,5 +1,4 @@
 # Projeto-RH-Oficial
- Explicação sobre a utilização das funções
 _____________________________________________________________________________________________________________________________
  ## FUNÇÕES DO MENU DO PROGRAMA
   ### Função inicio                                                                                                                                                                                                                                             
