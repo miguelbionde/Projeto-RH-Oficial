@@ -92,8 +92,9 @@ volta_Cadastro
 Pergunta ao cadastrador se ele deseja castrar um novo usuário.
 
 
-Referências Bibliográficas
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Referências Bibliográficas
+
+Aqui estão as pesquisas feitas nos sites referentes ao Projeto de RH!!
 [Tabela do INSS - 2023](https://blog.convenia.com.br/tabela-do-inss-para-2023-confira-os-reajustes/)
 
 [Como fazer calculo de férias - 2023](https://www.vagas.com.br/profissoes/como-calcular-ferias-calculo/#:~:text=No%20c%C3%A1lculo%20de%20f%C3%A9rias,%20%C3%A9,somar%201/3%20dele%20mesmo.)
