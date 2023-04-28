@@ -1,99 +1,125 @@
 # Projeto-RH-Oficial
  Explicação sobre a utilização das funções
-_____________________________________________________________________________________________________
- ### Função inicio:                                                                                                                                                                                                                                             
+_____________________________________________________________________________________________________________________________
+ ### Função inicio                                                                                                                                                                                                                                             
     - Na função início é colocado os dados base que serão usados em outras funções.                       
-_____________________________________________________________________________________________________
- ### Função Loop_Insalubridade: 
+_____________________________________________________________________________________________________________________________
+ ### Função Loop_Insalubridade
 
     - É uma função para evitar que o usuário coloque alguma opção não compatível.
-_____________________________________________________________________________________________________
- ### Função Loop_Vale_Transporte:
+_____________________________________________________________________________________________________________________________
+ ### Função Loop_Vale_Transporte
 
     - É uma função para evitar que o usuário coloque alguma opção não compatível.
-_____________________________________________________________________________________________________
- ### Função inicio_menu:
+_____________________________________________________________________________________________________________________________
+ ### Função inicio_menu
  
     - Onde o usuário ira selecionar algum dos simuladores do sistema RH.
-_____________________________________________________________________________________________________
-Função menu:
-Mostra as opções de simulador disponíveis para o usuário.
+_____________________________________________________________________________________________________________________________
+ ### Função menu
 
-Função seletor_programa:
-Foi usado um escolha caso para selecionar a opção escolhida.
+    - Mostra as opções de simulador disponíveis para o usuário.
+_____________________________________________________________________________________________________________________________
+ ### Função seletor_programa
+ 
+    - Foi usado um escolha caso para selecionar a opção escolhida.
+_____________________________________________________________________________________________________________________________
+ ### Função volta_menu
 
-Função volta_menu:
-Função para que no fim de algum simulador o usuário tenha a opção de refaze-lo ou voltar para o menu.
+    - Função para que no fim de algum simulador o usuário tenha a opção de refaze-lo ou voltar para o menu.
+_____________________________________________________________________________________________________________________________
+ ### Função Retorno_Calculo_Desconto_INSS
+ 
+    - É aonde o valor da função desconto_inss irá voltar o valor do desconto.
+_____________________________________________________________________________________________________________________________
+ ### Função Calculo_Desconto_INSS
+ 
+    - Um simulador onde vai calcular qual o desconto de INSS(Instituto Nacional do Seguro Social) do colaborador.
+_____________________________________________________________________________________________________________________________
+ ### Função Retorno_Calculo_Adicional_Ferias
+ 
+    - Função onde retornará o valor da função férias
+_____________________________________________________________________________________________________________________________
+ ### Função Calculo_Adicional_Ferias
+ 
+    - Onde calculo o valor a receber de férias, considerando o desconto do INSS e imposto de renda.
+_____________________________________________________________________________________________________________________________
+ ### Função Retorno_Calculo_Imposto_de_Renda
+ 
+    - Ele retornará o valor da variável IR na função imposto de renda.
+_____________________________________________________________________________________________________________________________
+ ### Função Calculo_Imposto_de_Renda
 
-Função Retorno_Calculo_Desconto_INSS:
-É aonde o valor da função desconto_inss irá voltar o valor do desconto. 
+    - Nesta função é calculado o imposto de renda do colaborador.
+_____________________________________________________________________________________________________________________________
+ ### Função Retorno_Calculo_Desconto_FGTS
 
-Função Calculo_Desconto_INSS:
-Um simulador onde vai calcular qual o desconto de INSS(Instituto Nacional do Seguro Social) do colaborador.
+    - Retornando o valor da função FGTS na finalidade e evitar erros de repetição e para organização.
+_____________________________________________________________________________________________________________________________
+ ### Função Calculo_Desconto_FGTS
 
-Função Retorno_Calculo_Adicional_Ferias:
-Função onde retornará o valor da função férias
+    - Função feita para facilitar a vida do usuário calculando automaticamente o FGTS(Fundo de Garantia do Tempo de Serviço).
+_____________________________________________________________________________________________________________________________
+ ### Função Retorno_Calculo_Multa_FGTS
 
-Função Calculo_Adicional_Ferias:
-Onde calculo o valor a receber de férias, considerando o desconto do INSS e imposto de renda.
+    - Retorna o valor da variavel multa.
+_____________________________________________________________________________________________________________________________
+ ### Função Calculo_Multa_FGTS
 
-Função Retorno_Calculo_Imposto_de_Renda:
-Ele retornará o valor da variável IR na função imposto de renda.
+    - Ele calculará a multa do FGTS.
+_____________________________________________________________________________________________________________________________
+ ### Função Simulacao_Seguro_Desemprego
 
-Função Calculo_Imposto_de_Renda:
-Nesta função é calculado o imposto de renda do colaborador.
+    - Diz ao usuário se o colaborador tem ou não direito ao seguro desemprego.
+_____________________________________________________________________________________________________________________________
+ ### Função Retorno_Calculo_Desconto_Vale_Transporte
 
-Função Retorno_Calculo_Desconto_FGTS:
-Retornando o valor da função FGTS na finalidade e evitar erros de repetição e para organização.
+    - Retorna o valor de desconto_vale_trans, e diz se vale a pena ou não ultilizar este benefício.
+_____________________________________________________________________________________________________________________________
+ ### Função Calculo_Desconto_Vale_Transporte
 
-Função Calculo_Desconto_FGTS:
-Função feita para facilitar a vida do usuário calculando automaticamente o FGTS(Fundo de Garantia do Tempo de Serviço).
+    - Nesta função o usuário simula o quanto o colaborador paga de vale transporte.
+_____________________________________________________________________________________________________________________________
+ ### Função Simulacao_PIS
 
-Função Retorno_Calculo_Multa_FGTS:
-retorna o valor da variavel multa.
+    - Calcula se o empregado tem ou não direito ao pis se sim quanto receberá.
+_____________________________________________________________________________________________________________________________
+ ### Função Retorno_Calculo_Adicional_Noturno
 
-Função Calculo_Multa_FGTS:
-Ele calculará a multa do FGTS.
+    - Retorna o valor da variável valor_adicional_noturno.
+_____________________________________________________________________________________________________________________________
+ ### Função Calculo_Adicional_Noturno
 
-Função Simulacao_Seguro_Desemprego:
-Diz ao usuário se o colaborador tem ou não direito ao seguro desemprego.
+    - Faz o calculo de quanto o funcionário vai receber nesse mês de adicional noturno.
+_____________________________________________________________________________________________________________________________
+ ### Função Retorno_Calculo_Adicional_Periculosidade
 
-Função Retorno_Calculo_Desconto_Vale_Transporte:
-retorna o valor de desconto_vale_trans, e diz se vale a pena ou não ultilizar este benefício.
+    - Retorna o valor da variável valor_adicional_periculosidade.
+_____________________________________________________________________________________________________________________________
+ ### Função Calculo_Adicional_Periculosidade
 
-Função Calculo_Desconto_Vale_Transporte:
-Nesta função o usuário simula o quanto o colaborador paga de vale transporte.
+    - A função irá calcular quanto o empregado receberá neste mês de adicional de insalubridade.
+_____________________________________________________________________________________________________________________________
+ ### Função Retorno_Calculo_Adicional_Horas_Extras
 
-Função Simulacao_PIS:
-Calcula se o empregado tem ou não direito ao pis se sim quanto receberá.
+    - Retorna o valor da variável valor_adicional_horas_extras.
+_____________________________________________________________________________________________________________________________
+ ### Função Calculo_Adicional_Horas_Extras
 
-Função Retorno_Calculo_Adicional_Noturno:
-retorna o valor da variável valor_adicional_noturno.
+    - Será calculada o valor dao adicional de horas extras deste mês.
+_____________________________________________________________________________________________________________________________
+ ### Simulacao_Completa
 
-Função Calculo_Adicional_Noturno:
-Faz o calculo de quanto o funcionário vai receber nesse mês de adicional noturno.
+    - Faz a simulação do contra cheque do usuário, possuindo salário bruto, descontos, adicionais e salário liquido.
+_____________________________________________________________________________________________________________________________
+ ### Função Repetidor_Cadastro
 
-Função Retorno_Calculo_Adicional_Periculosidade
-Retorna o valor da variável valor_adicional_periculosidade.
+    - Aqui o colaborador irá ser cadastradado e será arquivado no computador.
+_____________________________________________________________________________________________________________________________
+ ### volta_Cadastro
 
-Função Calculo_Adicional_Periculosidade
-A função irá calcular quanto o empregado receberá neste mês de adicional de insalubridade.
-
-Função Retorno_Calculo_Adicional_Horas_Extras
-retorna o valor da variável valor_adicional_horas_extras.
-
-Função Calculo_Adicional_Horas_Extras
-Será calculada o valor dao adicional de horas extras deste mês.
-
-Simulacao_Completa
-Faz a simulação do contra cheque do usuário, possuindo salário bruto, descontos, adicionais e salário liquido.
-
-Função Repetidor_Cadastro
-Aqui o colaborador irá ser cadastradado e será arquivado no computador.
-
-volta_Cadastro
-Pergunta ao cadastrador se ele deseja castrar um novo usuário.
-
+    - Pergunta ao cadastrador se ele deseja castrar um novo usuário.
+_____________________________________________________________________________________________________________________________
 
 ## Referências Bibliográficas 
 
