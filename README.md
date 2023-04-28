@@ -35,7 +35,7 @@ ________________________________________________________________________________
  ### Função Calculo_Desconto_INSS
  
     - Um simulador onde vai calcular qual o desconto de INSS
-    -(Instituto Nacional do Seguro Social) do colaborador.
+    - (Instituto Nacional do Seguro Social)
 _____________________________________________________________________________________________________________________________
  ### Função Retorno_Calculo_Adicional_Ferias
  
@@ -59,7 +59,8 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________________________________________
  ### Função Calculo_Desconto_FGTS
 
-    - Função feita para facilitar a vida do usuário calculando automaticamente o FGTS(Fundo de Garantia do Tempo de Serviço).
+    - Função feita para facilitar a vida do usuário calculando automaticamente o FGTS
+    - (Fundo de Garantia do Tempo de Serviço).
 _____________________________________________________________________________________________________________________________
  ### Função Retorno_Calculo_Multa_FGTS
 
@@ -111,7 +112,8 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________________________________________
  ### Simulacao_Completa
 
-    - Faz a simulação do contra cheque do usuário, possuindo salário bruto, descontos, adicionais e salário liquido.
+    - Faz a simulação do contra cheque do usuário, possuindo salário bruto, descontos, adicionais e 
+    - salário liquido.
 _____________________________________________________________________________________________________________________________
  ### Função Repetidor_Cadastro
 
