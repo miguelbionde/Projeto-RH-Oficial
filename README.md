@@ -1,10 +1,10 @@
 # Projeto-RH-Oficial
 Explicação sobre a utilização das funções
-_______________________________________________________________________________________________________
->### Função inicio:
-
->Na função início é colocado os dados base que serão usados em outras funções.
-_______________________________________________________________________________________________________
+>_____________________________________________________________________________________________________>
+>### Função inicio:                                                                                   >
+>                                                                                                     >
+>Na função início é colocado os dados base que serão usados em outras funções.                        >
+>_____________________________________________________________________________________________________>
 ### Função Loop_Insalubridade: 
 
 É uma função para evitar que o usuário coloque alguma opção não compatível.
