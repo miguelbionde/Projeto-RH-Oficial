@@ -8,7 +8,7 @@ ________________________________________________________________________________
 
     - É uma função para evitar que o usuário coloque alguma opção não compatível.
 _____________________________________________________________________________________________________
- ###Função Loop_Vale_Transporte:
+###Função Loop_Vale_Transporte:
 
    - É uma função para evitar que o usuário coloque alguma opção não compatível.
 
