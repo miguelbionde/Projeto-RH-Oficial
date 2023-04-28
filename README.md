@@ -22,6 +22,7 @@
 
     - Função para que no fim de algum simulador o usuário tenha a opção de refaze-lo ou voltar para o menu.
 _____________________________________________________________________________________________________________________________
+
  ## FUNÇÕES CASO A OPÇÃO ESCOLHIDA NÃO É COMPATIVEL
  
    (Se o usuário colocar uma opção não de acordo, o programa vai ficar repitindo
@@ -36,47 +37,75 @@ ________________________________________________________________________________
     - É uma função para evitar que o usuário coloque alguma opção não compatível.
 _____________________________________________________________________________________________________________________________
 
- ### Função Retorno_Calculo_Desconto_INSS
+ ## FUNÇÕES QUE FAZEM CALCULOS
  
-    - É aonde o valor da função desconto_inss irá voltar o valor do desconto.
-_____________________________________________________________________________________________________________________________
  ### Função Calculo_Desconto_INSS
  
     - Um simulador onde vai calcular qual o desconto de INSS
       (Instituto Nacional do Seguro Social)
+      
+ ### Função Calculo_Adicional_Ferias
+ 
+    - Onde calculo o valor a receber de férias, considerando o desconto do INSS e imposto de renda.
+    
+ ### Função Calculo_Imposto_de_Renda
+
+    - Nesta função é calculado o imposto de renda do colaborador.
+    
+ ### Função Calculo_Desconto_FGTS
+
+    - Função feita para facilitar a vida do usuário calculando automaticamente o FGTS
+      (Fundo de Garantia do Tempo de Serviço).
+     
+ ### Função Calculo_Multa_FGTS
+
+    - Ele calculará a multa do FGTS.
+    
+ ### Função Calculo_Desconto_Vale_Transporte
+
+    - Nesta função o usuário simula o quanto o colaborador paga de vale transporte.
+    
+ ### Função Calculo_Adicional_Noturno
+
+    - Faz o calculo de quanto o funcionário vai receber nesse mês de adicional noturno.
+    
+ ### Função Calculo_Adicional_Periculosidade
+
+    - A função irá calcular quanto o empregado receberá neste mês de adicional de insalubridade.
+    
+ ### Função Calculo_Adicional_Horas_Extras
+
+    - Será calculada o valor dao adicional de horas extras deste mês.
 _____________________________________________________________________________________________________________________________
+ 
+ ### Função Retorno_Calculo_Desconto_INSS
+ 
+    - É aonde o valor da função desconto_inss irá voltar o valor do desconto.
+_____________________________________________________________________________________________________________________________
+ 
  ### Função Retorno_Calculo_Adicional_Ferias
  
     - Função onde retornará o valor da função férias
 _____________________________________________________________________________________________________________________________
- ### Função Calculo_Adicional_Ferias
  
-    - Onde calculo o valor a receber de férias, considerando o desconto do INSS e imposto de renda.
 _____________________________________________________________________________________________________________________________
  ### Função Retorno_Calculo_Imposto_de_Renda
  
     - Ele retornará o valor da variável IR na função imposto de renda.
 _____________________________________________________________________________________________________________________________
- ### Função Calculo_Imposto_de_Renda
-
-    - Nesta função é calculado o imposto de renda do colaborador.
+ 
 _____________________________________________________________________________________________________________________________
  ### Função Retorno_Calculo_Desconto_FGTS
 
     - Retornando o valor da função FGTS na finalidade e evitar erros de repetição e para organização.
 _____________________________________________________________________________________________________________________________
- ### Função Calculo_Desconto_FGTS
 
-    - Função feita para facilitar a vida do usuário calculando automaticamente o FGTS
-      (Fundo de Garantia do Tempo de Serviço).
 _____________________________________________________________________________________________________________________________
  ### Função Retorno_Calculo_Multa_FGTS
 
     - Retorna o valor da variavel multa.
 _____________________________________________________________________________________________________________________________
- ### Função Calculo_Multa_FGTS
-
-    - Ele calculará a multa do FGTS.
+ 
 _____________________________________________________________________________________________________________________________
  ### Função Simulacao_Seguro_Desemprego
 
@@ -86,9 +115,7 @@ ________________________________________________________________________________
 
     - Retorna o valor de desconto_vale_trans, e diz se vale a pena ou não ultilizar este benefício.
 _____________________________________________________________________________________________________________________________
- ### Função Calculo_Desconto_Vale_Transporte
 
-    - Nesta função o usuário simula o quanto o colaborador paga de vale transporte.
 _____________________________________________________________________________________________________________________________
  ### Função Simulacao_PIS
 
@@ -98,17 +125,13 @@ ________________________________________________________________________________
 
     - Retorna o valor da variável valor_adicional_noturno.
 _____________________________________________________________________________________________________________________________
- ### Função Calculo_Adicional_Noturno
 
-    - Faz o calculo de quanto o funcionário vai receber nesse mês de adicional noturno.
 _____________________________________________________________________________________________________________________________
  ### Função Retorno_Calculo_Adicional_Periculosidade
 
     - Retorna o valor da variável valor_adicional_periculosidade.
 _____________________________________________________________________________________________________________________________
- ### Função Calculo_Adicional_Periculosidade
 
-    - A função irá calcular quanto o empregado receberá neste mês de adicional de insalubridade.
 _____________________________________________________________________________________________________________________________
  ### Função Retorno_Calculo_Adicional_Horas_Extras
 
