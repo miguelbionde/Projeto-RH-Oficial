@@ -1,6 +1,7 @@
 # Projeto-RH-Oficial
-Explicação sobre a utilização das funções
 
+Explicação sobre a utilização das funções
+_______________________________________________________________________________________________________
 ### Função inicio:
 
 Na função início é colocado os dados base que serão usados em outras funções.
