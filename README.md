@@ -2,7 +2,7 @@
 Explicação sobre a utilização das funções
 _____________________________________________________________________________________________________
   ### Função inicio:                                                                                                                                                                                                                                             
-    -Na função início é colocado os dados base que serão usados em outras funções.                       
+    - Na função início é colocado os dados base que serão usados em outras funções.                       
 _____________________________________________________________________________________________________
 ### Função Loop_Insalubridade: 
 
