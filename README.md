@@ -34,7 +34,8 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________________________________________
  ### Função Calculo_Desconto_INSS
  
-    - Um simulador onde vai calcular qual o desconto de INSS(Instituto Nacional do Seguro Social) do colaborador.
+    - Um simulador onde vai calcular qual o desconto de INSS
+    -(Instituto Nacional do Seguro Social) do colaborador.
 _____________________________________________________________________________________________________________________________
  ### Função Retorno_Calculo_Adicional_Ferias
  
