@@ -9,7 +9,7 @@ ________________________________________________________________________________
     - É uma função para evitar que o usuário coloque alguma opção não compatível.
 _____________________________________________________________________________________________________
 ### Função Loop_Vale_Transporte:
-   -É uma função para evitar que o usuário coloque alguma opção não compatível.
+- Na função início é colocado os dados base que serão usados em outras funções.
 
 Função inicio_menu:
 Onde o usuário ira selecionar algum dos simuladores do sistema RH.
