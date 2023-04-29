@@ -35,7 +35,7 @@
  ### Função Loop_Vale_Transporte
 
     - É uma função para evitar que o usuário coloque alguma opção não compatível.
-_____________________________________________________________________________________________________________________________
+
 
  ## FUNÇÕES QUE FAZEM CALCULOS
  
@@ -76,7 +76,7 @@ ________________________________________________________________________________
  ### Função Calculo_Adicional_Horas_Extras
 
     - Será calculada o valor dao adicional de horas extras deste mês.
-_____________________________________________________________________________________________________________________________
+
 
  ## FUNÇÕES QUE RETORNAM OS CALCULOS
  
@@ -115,7 +115,7 @@ ________________________________________________________________________________
   ### Função Retorno_Calculo_Adicional_Horas_Extras
 
     - Retorna o valor da variável valor_adicional_horas_extras.  
-_____________________________________________________________________________________________________________________________
+
  
  ## FUNÇÕES QUE FAZEM UMA SIMULAÇÃO
  
@@ -131,7 +131,7 @@ ________________________________________________________________________________
 
     - Faz a simulação do contra cheque do usuário, possuindo salário bruto, descontos, adicionais e 
       salário liquido.
-_____________________________________________________________________________________________________________________________
+
 
 ## FUNÇÕES QUE FAZEM O PROCESSO DE CADASTRAR UM FUNCIONÁRIO
 
