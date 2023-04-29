@@ -32,7 +32,6 @@ programa
 		seletor_programa(opcao_escolhida)
 	}
 	funcao menu()
-	
 	{
 		escreva("SISTEMA DE RECURSOS HUMANOS")
 		escreva("\n++++++++++++++++++++++++++++++++++++++++++++++++++++\n")
@@ -603,6 +602,7 @@ programa
 		escreva("\nO valor adicional de periculosidade é de R$", valor_adicional_periculosidade)
 
 		logico resultado = volta_menu()
+		
 		se(resultado == verdadeiro)
 		{
 			inicio_menu()
@@ -629,6 +629,7 @@ programa
 		escreva("\nO valor adicional de horas extras é de R$",adicional_horas_extras)
 
 		logico resultado = volta_menu()
+		
 		se(resultado == verdadeiro)
 		{
 			inicio_menu()
@@ -668,6 +669,7 @@ programa
 		escreva("\nNoturno: + R$", ad_noturno)
 		salario_periculosidade = programa_var_salario_bruto
 		valor_adicional_periculosidade = calculo_adicional_periculosidade(salario_periculosidade)
+		
 		se(programa_var_periculosidade == "S")
 		{
 			escreva("\nPericulosidade: + R$", valor_adicional_periculosidade)
@@ -682,6 +684,7 @@ programa
 		escreva("\nFGTS: + R$", fgts)
 		salario_vt = programa_var_salario_bruto
 		desconto_vale_trans = calculo_desconto_vale_transporte(salario_vt)
+		
 		se(programa_var_vale_transporte == "S")
 		{
 			escreva("\nVale transporte: - R$", desconto_vale_trans)
@@ -711,6 +714,7 @@ programa
 		escreva("\nSalário líquito: R$", salario_liquido, "\n")
 
 		logico resultado = volta_menu()
+		
 		se(resultado == verdadeiro)
 		{
 			inicio_menu()
@@ -772,6 +776,7 @@ programa
 		}
 
 		logico resultado = volta_cadastro()
+		
 		se(resultado)
 		{
 			limpa()
