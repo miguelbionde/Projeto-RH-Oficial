@@ -3,10 +3,7 @@
 
 
  ## FUNÇÕES DO MENU DO PROGRAMA
-  ### Função inicio                                                                                                                                                                                                                                             
-    - Na função início é colocado os dados base que serão usados em outras funções.
-    
-  ### Função inicio_menu
+  ### Função inicio
  
     - Onde o usuário ira selecionar algum dos simuladores do sistema RH.
  
@@ -21,21 +18,6 @@
   ### Função volta_menu
 
     - Função para que no fim de algum simulador o usuário tenha a opção de refaze-lo ou voltar para o menu.
-
-
-  ## FUNÇÕES CASO A OPÇÃO ESCOLHIDA NÃO É COMPATIVEL
- 
-   (Se o usuário colocar uma opção não de acordo, o programa vai ficar repitindo
-    até que coloque de forma correta.)
-      
- ### Função Loop_Insalubridade
-
-    - É uma função para evitar que o usuário coloque alguma opção não compatível.
-    
- ### Função Loop_Vale_Transporte
-
-    - É uma função para evitar que o usuário coloque alguma opção não compatível.
-
 
  ## FUNÇÕES QUE FAZEM CALCULOS
  
@@ -131,6 +113,21 @@
 
     - Faz a simulação do contra cheque do usuário, possuindo salário bruto, descontos, adicionais e 
       salário liquido.
+      
+ ## FUNÇÕES CASO A OPÇÃO ESCOLHIDA NÃO É COMPATIVEL
+ 
+   (Se o usuário colocar uma opção não de acordo, o programa vai ficar repitindo
+    até que coloque de forma correta.)
+      
+ ### Função Loop_Insalubridade
+
+    - É uma função para evitar que o usuário coloque alguma opção não compatível.
+    
+ ### Função Loop_Vale_Transporte
+
+    - É uma função para evitar que o usuário coloque alguma opção não compatível.
+
+
 
 
 ## FUNÇÕES QUE FAZEM O PROCESSO DE CADASTRAR UM FUNCIONÁRIO
