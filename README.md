@@ -119,7 +119,7 @@
    (Se o usuário colocar uma opção não de acordo, o programa vai ficar repitindo
     até que coloque de forma correta.)
       
- ### Função Loop_Insalubridade
+ ### Função Loop_Periculosidade
 
     - É uma função para evitar que o usuário coloque alguma opção não compatível.
     
