@@ -5,12 +5,12 @@
  ## FUNÇÕES DO MENU DO PROGRAMA
   ### Função inicio ( )
  
-    - Onde ela irá puxar a nossa funcao incio_menu() e aparecerá todas as opções dos nossos
+    - Onde ela irá puxar a nossa funcao incio_menu ( ) e aparecerá todas as opções dos nossos
       simuladores disponíveis para o usuário fazer sua escolha.
       
   ### Função inicio_menu ( )
   
-    - Servirá como um retorno para a função inicio().
+    - Servirá como um retorno para a função inicio ( ).
  
   ### Função menu ( )
 
