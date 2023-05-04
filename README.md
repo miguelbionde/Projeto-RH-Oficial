@@ -3,25 +3,29 @@
 
 
  ## FUNÇÕES DO MENU DO PROGRAMA
-  ### Função inicio
+  ### Função inicio()
  
-    - Onde o usuário ira selecionar algum dos simuladores do sistema RH.
+    - Onde ela irá puxar a nossa funcao incio_menu() e aparecerá todas as opções dos nossos
+      simuladores disponíveis para o usuário fazer sua escolha
+      
+  ### Função inicio_menu()
+    -
  
-  ### Função menu
+  ### Função menu()
 
     - Mostra as opções de simulador disponíveis para o usuário.
     
-  ### Função seletor_programa
+  ### Função seletor_programa()
  
     - Foi usado um escolha caso para selecionar a opção escolhida.
     
-  ### Função volta_menu
+  ### Função volta_menu()
 
     - Função para que no fim de algum simulador o usuário tenha a opção de refaze-lo ou voltar para o menu.
 
  ## FUNÇÕES QUE FAZEM CALCULOS
  
- ### Função Calculo_Desconto_INSS
+ ### Função Calculo_Desconto_INSS()
  
     - Um simulador onde vai calcular qual o desconto de INSS
       (Instituto Nacional do Seguro Social)
