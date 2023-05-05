@@ -137,7 +137,8 @@
 
  ### Função Cadastrar_Funcionarios ( )
 
-    - Aqui o colaborador irá ser cadastradado e será arquivado no computador.
+    - Aqui o colaborador irá se cadastrar e seu cadastro irá ser gravado
+      em um banco de dados.
     
  ### Volta_Cadastro ( )
 
