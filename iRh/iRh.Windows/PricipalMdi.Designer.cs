@@ -71,6 +71,7 @@
             this.menuFuncionarios.Name = "menuFuncionarios";
             this.menuFuncionarios.Size = new System.Drawing.Size(180, 22);
             this.menuFuncionarios.Text = "Funcionários";
+            this.menuFuncionarios.Click += new System.EventHandler(this.menuFuncionarios_Click);
             // 
             // simuladoresToolStripMenuItem
             // 
@@ -102,6 +103,7 @@
             this.menuDescontoIrrf.Name = "menuDescontoIrrf";
             this.menuDescontoIrrf.Size = new System.Drawing.Size(249, 22);
             this.menuDescontoIrrf.Text = "Desconto de IRRF";
+            this.menuDescontoIrrf.Click += new System.EventHandler(this.menuDescontoIrrf_Click);
             // 
             // toolStripSeparator1
             // 
@@ -113,48 +115,56 @@
             this.menubenefícioAdicionalNoturno.Name = "menubenefícioAdicionalNoturno";
             this.menubenefícioAdicionalNoturno.Size = new System.Drawing.Size(249, 22);
             this.menubenefícioAdicionalNoturno.Text = "Benefício de Adicional Noturno";
+            this.menubenefícioAdicionalNoturno.Click += new System.EventHandler(this.menubenefícioAdicionalNoturno_Click);
             // 
             // menuBenefícioFGTS
             // 
             this.menuBenefícioFGTS.Name = "menuBenefícioFGTS";
             this.menuBenefícioFGTS.Size = new System.Drawing.Size(249, 22);
             this.menuBenefícioFGTS.Text = "Benefício de Depósito FGTS";
+            this.menuBenefícioFGTS.Click += new System.EventHandler(this.menuBenefícioFGTS_Click);
             // 
             // menuBenefícioFérias
             // 
             this.menuBenefícioFérias.Name = "menuBenefícioFérias";
             this.menuBenefícioFérias.Size = new System.Drawing.Size(249, 22);
             this.menuBenefícioFérias.Text = "Benefício Férias";
+            this.menuBenefícioFérias.Click += new System.EventHandler(this.menuBenefícioFérias_Click);
             // 
             // menuBenefícioHoraExtra
             // 
             this.menuBenefícioHoraExtra.Name = "menuBenefícioHoraExtra";
             this.menuBenefícioHoraExtra.Size = new System.Drawing.Size(249, 22);
             this.menuBenefícioHoraExtra.Text = "Benefício de Hora Extra";
+            this.menuBenefícioHoraExtra.Click += new System.EventHandler(this.menuBenefícioHoraExtra_Click);
             // 
             // menuBenefícioPericulosidade
             // 
             this.menuBenefícioPericulosidade.Name = "menuBenefícioPericulosidade";
             this.menuBenefícioPericulosidade.Size = new System.Drawing.Size(249, 22);
             this.menuBenefícioPericulosidade.Text = "Benefício de Periculosidade";
+            this.menuBenefícioPericulosidade.Click += new System.EventHandler(this.menuBenefícioPericulosidade_Click);
             // 
             // menuBenefícioPIS
             // 
             this.menuBenefícioPIS.Name = "menuBenefícioPIS";
             this.menuBenefícioPIS.Size = new System.Drawing.Size(249, 22);
             this.menuBenefícioPIS.Text = "Benefício de PIS";
+            this.menuBenefícioPIS.Click += new System.EventHandler(this.menuBenefícioPIS_Click);
             // 
             // menuBenefícioSeguroDesempregp
             // 
             this.menuBenefícioSeguroDesempregp.Name = "menuBenefícioSeguroDesempregp";
             this.menuBenefícioSeguroDesempregp.Size = new System.Drawing.Size(249, 22);
             this.menuBenefícioSeguroDesempregp.Text = "Benefício de Seguro Desemprego";
+            this.menuBenefícioSeguroDesempregp.Click += new System.EventHandler(this.menuBenefícioSeguroDesempregp_Click);
             // 
             // menuBenefícioVAleTransporte
             // 
             this.menuBenefícioVAleTransporte.Name = "menuBenefícioVAleTransporte";
             this.menuBenefícioVAleTransporte.Size = new System.Drawing.Size(249, 22);
             this.menuBenefícioVAleTransporte.Text = "Benefício de Vale Transporte";
+            this.menuBenefícioVAleTransporte.Click += new System.EventHandler(this.menuBenefícioVAleTransporte_Click);
             // 
             // PricipalMdi
             // 
