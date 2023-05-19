@@ -16,5 +16,10 @@ namespace iRh.Windows
         {
             InitializeComponent();
         }
+
+        private void menuDescontoInss_Click(object sender, EventArgs e)
+        {
+            var form = new frm
+        }
     }
 }
