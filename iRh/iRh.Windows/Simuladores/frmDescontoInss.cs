@@ -31,7 +31,8 @@ namespace iRh.Windows.Simuladores
             {
                 var salario = double.Parse(txtSalario.Text);
                 if (salario <= 1302.00)
-                    var desconto_1
+                    var desconto_1 = (salario * 0.075);
+                
             }
             catch (Exception)
             {
