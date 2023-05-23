@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+using iRh.Windows.Cadastros.Core2;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -30,8 +32,7 @@ namespace iRh.Windows.Simuladores
             try
             {
                 var salario = double.Parse(txtSalario.Text);
-                if (salario <= 1302.00)
-                    var desconto_1 = (salario * 0.075);
+                var descontoInss = Calculadora.Inss(salario);
                 
             }
             catch (Exception)
