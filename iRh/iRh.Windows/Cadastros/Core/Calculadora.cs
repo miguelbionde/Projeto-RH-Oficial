@@ -11,7 +11,7 @@ namespace iRh.Windows.Cadastros.Core
         const double Faixa01 = 1302.0;
         const double Faixa02 = 2571.29;
         const double Faixa03 = 3856.94;
-        const double Faixa04 = 705.49;
+        const double Faixa04 = 7507.49;
 
         public static double Calcular(double salario)
         {
@@ -62,7 +62,7 @@ namespace iRh.Windows.Cadastros.Core
 
         private static double CalculaFaixa2(double salario)
         {
-            return 0.09 * (Faixa01 - Faixa02);
+            return 0.09 * (Faixa02 - Faixa01);
         }
 
         private static double CalculaFaixa3(double salario)
