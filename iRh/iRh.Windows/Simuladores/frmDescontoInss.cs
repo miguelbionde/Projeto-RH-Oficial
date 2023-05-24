@@ -1,5 +1,5 @@
 ﻿
-using iRh.Windows.Cadastros.Core2;
+using iRh.Windows.Cadastros.Core;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -32,8 +32,9 @@ namespace iRh.Windows.Simuladores
             try
             {
                 var salario = double.Parse(txtSalario.Text);
-                var descontoInss = Calculadora.Inss(salario);
-                
+                var descontoInss = Inss.Calcular(salario);
+                lblResultado.Text = descontoInss.ToString();
+                lblResultado.Visible = true;
             }
             catch (Exception)
             {

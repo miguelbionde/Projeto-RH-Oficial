@@ -83,6 +83,7 @@
             this.lblResultado.Size = new System.Drawing.Size(126, 30);
             this.lblResultado.TabIndex = 1;
             this.lblResultado.Text = "lblResultado";
+            this.lblResultado.Visible = false;
             // 
             // frmDescontoInss
             // 
