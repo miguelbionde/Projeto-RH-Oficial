@@ -46,13 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cadastros\Core\Fgts.cs" />
     <Compile Include="Cadastros\frmFuncionarios.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Cadastros\frmFuncionarios.Designer.cs">
       <DependentUpon>frmFuncionarios.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cadastros\Core\Calculadora.cs" />
+    <Compile Include="Cadastros\Core\Inss.cs" />
     <Compile Include="PricipalMdi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,6 +134,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Simuladores\frmBeneficioFgts.resx">
+      <DependentUpon>frmBeneficioFgts.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Simuladores\frmDescontoInss.resx">
       <DependentUpon>frmDescontoInss.cs</DependentUpon>
     </EmbeddedResource>
