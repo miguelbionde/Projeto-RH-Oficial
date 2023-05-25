@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace iRh.Windows.Cadastros.Core
+{
+    public static class ValeTransporte
+    {
+        public static double Calcular(double salario)
+        {
+            var descontoValeTransporte = 0.0;
+            descontoValeTransporte = salario * 0.06;
+            return descontoValeTransporte;
+        }
+
+        public static double ValeaPena(double salario)
+        {
+            var gastos = 0 
+            gastos = 
+        }
+        
+    }
+
+
+}

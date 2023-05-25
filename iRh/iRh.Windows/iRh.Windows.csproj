@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cadastros\Core\Fgts.cs" />
+    <Compile Include="Cadastros\Core\ValeTransporte.cs" />
     <Compile Include="Cadastros\frmFuncionarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +111,12 @@
     <Compile Include="Simuladores\frmBeneficioValeTransporte.Designer.cs">
       <DependentUpon>frmBeneficioValeTransporte.cs</DependentUpon>
     </Compile>
+    <Compile Include="Simuladores\frmBeneficioValeTransporteValeaPena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Simuladores\frmBeneficioValeTransporteValeaPena.Designer.cs">
+      <DependentUpon>frmBeneficioValeTransporteValeaPena.cs</DependentUpon>
+    </Compile>
     <Compile Include="Simuladores\frmDescontoInss.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -136,6 +143,12 @@
     </Compile>
     <EmbeddedResource Include="Simuladores\frmBeneficioFgts.resx">
       <DependentUpon>frmBeneficioFgts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioValeTransporte.resx">
+      <DependentUpon>frmBeneficioValeTransporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioValeTransporteValeaPena.resx">
+      <DependentUpon>frmBeneficioValeTransporteValeaPena.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Simuladores\frmDescontoInss.resx">
       <DependentUpon>frmDescontoInss.cs</DependentUpon>
