@@ -54,8 +54,8 @@ namespace iRh.Windows.Simuladores
                 var valorPassagem = double.Parse(txtValorPassagem.Text);
                 var diasUsados = double.Parse(txtDiasMes.Text);
                 var passagemPorDia = double.Parse(txtPassagemDia.Text);
-                var descontoValeTrasporte = ValeTransporte.ValeaPena(double salario, double valorPassagem, double diasUsados, double passagemPorDia);
-                lblResultado.Text = "R$" + descontoValeTrasporte.ToString("c");
+                
+                
                 lblResultado.Visible = true;
             }
             catch (Exception)

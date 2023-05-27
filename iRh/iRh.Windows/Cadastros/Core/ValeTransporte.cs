@@ -15,11 +15,7 @@ namespace iRh.Windows.Cadastros.Core
             return descontoValeTransporte;
         }
 
-        public static double ValeaPena(double salario)
-        {
-            var gastos = 0 
-            gastos = 
-        }
+       
         
     }
 

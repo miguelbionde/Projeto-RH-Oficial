@@ -16,5 +16,56 @@ namespace iRh.Windows.Cadastros
         {
             InitializeComponent();
         }
+
+        private void frmFuncionarios_Load(object sender, EventArgs e)
+        {
+            rbTemFilhosNão.Checked = true;
+            panelExibeDadosFilhos.Visible = false;
+        }
+
+        private void rbTemFilhoSim_CheckedChanged(object sender, EventArgs e)
+        {
+            panelExibeDadosFilhos.Visible = true;
+        }
+
+        private void rbTemFilhosNão_CheckedChanged(object sender, EventArgs e)
+        {
+            panelExibeDadosFilhos.Visible = false;
+        }
+
+        private void txtFilhoDataNascimento_TextChanged(object sender, EventArgs e)
+        {
+            var dataNascimento = DateTime.Parse(txtFilhoDataNascimento.Text);
+            var anoAtual = DateTime.Now.Year;
+            lblIdade.Text = (anoAtual - dataNascimento.Year).ToString();
+        }
+
+        private void txtFilhoDataNascimento_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                try
+                {
+                    var dataNascimento = DateTime.Parse(txtFilhoDataNascimento.Text);
+                    var anoAtual = DateTime.Now.Year;
+                    lblIdade.Text = (anoAtual - dataNascimento.Year).ToString();
+                }
+                
+                 catch (Exception ex)
+                {
+                    MessageBox.Show("A data de nascimento parece estar errada, detalhamento: " + ex);
+                }
+            }
+        }
+        private string Comprimentador(int opcaoSelecionada)
+        {
+            switch(opcaoSelecionada)
+            {
+                case 1: return "Prezado Senhor ";
+                case 2: return "Prezada, Senhora ";
+                case 3: return "Prezade, Senhore";
+                case 4: return "Prezade, Senhore";
+            }
+        }
     }
 }
