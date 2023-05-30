@@ -66,7 +66,7 @@
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(118, 62);
             this.btnCalcular.TabIndex = 6;
-            this.btnCalcular.Text = "Calcular INSS";
+            this.btnCalcular.Text = "Calcular Vale Transporte";
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
@@ -94,10 +94,10 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(340, 55);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(478, 60);
+            this.label1.Size = new System.Drawing.Size(387, 60);
             this.label1.TabIndex = 8;
-            this.label1.Text = "Gostaria que o sistema calcule e mostre \r\nse vale a pena ou não usar o benefício " +
-    "(S) ou (N)? ";
+            this.label1.Text = "Gostaria que o sistema calcule e mostre \r\nse vale a pena ou não usar o benefício?" +
+    " ";
             // 
             // btnSim
             // 

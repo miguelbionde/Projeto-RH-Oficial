@@ -54,7 +54,16 @@ namespace iRh.Windows.Simuladores
                 var valorPassagem = double.Parse(txtValorPassagem.Text);
                 var diasUsados = double.Parse(txtDiasMes.Text);
                 var passagemPorDia = double.Parse(txtPassagemDia.Text);
-                
+                var calculoValeTransporte = ValeTransporte.ValeaPena(salario, valorPassagem, diasUsados, passagemPorDia);
+                if (calculoValeTransporte == 1)
+                {
+                    lblResultado.Text = "Vale a pena usar o benefício Vale Transporte";
+                }
+
+                if(calculoValeTransporte == 0)
+                {
+                    lblResultado.Text = "Não vale a pena usar o benefício Vale Transporte";
+                }
                 
                 lblResultado.Visible = true;
             }

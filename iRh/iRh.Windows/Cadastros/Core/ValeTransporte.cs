@@ -15,9 +15,20 @@ namespace iRh.Windows.Cadastros.Core
             return descontoValeTransporte;
         }
 
+        public static double ValeaPena(double salario, double valorPassagem, double diasUsados, double passagemPorDia)
+        {
+            var valeaPena = valorPassagem * diasUsados * passagemPorDia;
+            if (valeaPena > Calcular(salario))
+            {
+                return 1;
+            }
+            else
+            {
+                return 0;
+            }
+
+        }
        
         
     }
-
-
 }

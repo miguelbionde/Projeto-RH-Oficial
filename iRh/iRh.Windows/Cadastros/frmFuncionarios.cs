@@ -57,15 +57,5 @@ namespace iRh.Windows.Cadastros
                 }
             }
         }
-        private string Comprimentador(int opcaoSelecionada)
-        {
-            switch(opcaoSelecionada)
-            {
-                case 1: return "Prezado Senhor ";
-                case 2: return "Prezada, Senhora ";
-                case 3: return "Prezade, Senhore";
-                case 4: return "Prezade, Senhore";
-            }
-        }
     }
 }

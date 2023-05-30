@@ -113,7 +113,7 @@
             this.panelResultado.Controls.Add(this.lblResultado);
             this.panelResultado.Location = new System.Drawing.Point(380, 285);
             this.panelResultado.Name = "panelResultado";
-            this.panelResultado.Size = new System.Drawing.Size(289, 125);
+            this.panelResultado.Size = new System.Drawing.Size(377, 125);
             this.panelResultado.TabIndex = 7;
             // 
             // lblResultado

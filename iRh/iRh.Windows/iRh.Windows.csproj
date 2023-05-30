@@ -47,6 +47,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cadastros\Core\Fgts.cs" />
+    <Compile Include="Cadastros\Core\HoraExtra.cs" />
+    <Compile Include="Cadastros\Core\Periculosidade.cs" />
     <Compile Include="Cadastros\Core\ValeTransporte.cs" />
     <Compile Include="Cadastros\frmFuncionarios.cs">
       <SubType>Form</SubType>
@@ -146,6 +148,12 @@
     </Compile>
     <EmbeddedResource Include="Simuladores\frmBeneficioFgts.resx">
       <DependentUpon>frmBeneficioFgts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioHoraExtra.resx">
+      <DependentUpon>frmBeneficioHoraExtra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioPericulosidade.resx">
+      <DependentUpon>frmBeneficioPericulosidade.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Simuladores\frmBeneficioValeTransporte.resx">
       <DependentUpon>frmBeneficioValeTransporte.cs</DependentUpon>
