@@ -46,9 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cadastros\Core\AdicionalFerias.cs" />
     <Compile Include="Cadastros\Core\AdicionalNoturno.cs" />
     <Compile Include="Cadastros\Core\Fgts.cs" />
     <Compile Include="Cadastros\Core\HoraExtra.cs" />
+    <Compile Include="Cadastros\Core\Irrf.cs" />
     <Compile Include="Cadastros\Core\Periculosidade.cs" />
     <Compile Include="Cadastros\Core\ValeTransporte.cs" />
     <Compile Include="Cadastros\frmFuncionarios.cs">
@@ -150,6 +152,9 @@
     <EmbeddedResource Include="Simuladores\frmBeneficioAdicionalNoturno.resx">
       <DependentUpon>frmBeneficioAdicionalNoturno.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioFerias.resx">
+      <DependentUpon>frmBeneficioFerias.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Simuladores\frmBeneficioFgts.resx">
       <DependentUpon>frmBeneficioFgts.cs</DependentUpon>
     </EmbeddedResource>
@@ -167,6 +172,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Simuladores\frmDescontoInss.resx">
       <DependentUpon>frmDescontoInss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmDescontoIrrf.resx">
+      <DependentUpon>frmDescontoIrrf.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
