@@ -34,10 +34,11 @@ namespace iRh.Windows.Simuladores
                 var horaExtra = double.Parse(txtHoraExtra.Text);
                 var adicionalHoraExtra = HoraExtra.Calcular(valorHoraExtra, horaExtra);
                 lblResultado.Text = "R$" + adicionalHoraExtra.ToString();
+                lblResultado.Visible = true;
             }
             catch (Exception)
             {
-                MessageBox.Show("informe um valor de salário Válido, ex 5,93", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("informe um valor de hora Válido, ex 5,93", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
     }
