@@ -164,6 +164,9 @@
     <EmbeddedResource Include="Simuladores\frmBeneficioPericulosidade.resx">
       <DependentUpon>frmBeneficioPericulosidade.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioSeguroDesemprego.resx">
+      <DependentUpon>frmBeneficioSeguroDesemprego.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Simuladores\frmBeneficioValeTransporte.resx">
       <DependentUpon>frmBeneficioValeTransporte.cs</DependentUpon>
     </EmbeddedResource>

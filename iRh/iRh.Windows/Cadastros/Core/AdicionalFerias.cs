@@ -10,9 +10,11 @@ namespace iRh.Windows.Cadastros.Core
     {
         public static double Calcular(double salario)
         {
-            var salarioFerias = (salario/3) + salario
-            var irrf = 0;
-            return 0;
+            var salarioFerias = (salario / 3) + salario;
+            var irrf = Irrf.Calcular(salario);
+            var inss = Inss.Calcular(salario);
+            var valorFerias = salarioFerias - (irrf + inss);
+            return valorFerias;
 
         }
     }

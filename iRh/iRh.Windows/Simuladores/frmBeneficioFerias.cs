@@ -39,5 +39,6 @@ namespace iRh.Windows.Simuladores
             {
                 MessageBox.Show("informe um valor de salário Válido, ex 3500", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
     }
 }
