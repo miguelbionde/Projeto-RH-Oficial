@@ -52,6 +52,7 @@
     <Compile Include="Cadastros\Core\HoraExtra.cs" />
     <Compile Include="Cadastros\Core\Irrf.cs" />
     <Compile Include="Cadastros\Core\Periculosidade.cs" />
+    <Compile Include="Cadastros\Core\Pis.cs" />
     <Compile Include="Cadastros\Core\ValeTransporte.cs" />
     <Compile Include="Cadastros\frmFuncionarios.cs">
       <SubType>Form</SubType>
@@ -163,6 +164,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Simuladores\frmBeneficioPericulosidade.resx">
       <DependentUpon>frmBeneficioPericulosidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmBeneficioPis.resx">
+      <DependentUpon>frmBeneficioPis.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Simuladores\frmBeneficioSeguroDesemprego.resx">
       <DependentUpon>frmBeneficioSeguroDesemprego.cs</DependentUpon>
