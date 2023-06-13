@@ -69,7 +69,7 @@
             // menuFuncionarios
             // 
             this.menuFuncionarios.Name = "menuFuncionarios";
-            this.menuFuncionarios.Size = new System.Drawing.Size(180, 22);
+            this.menuFuncionarios.Size = new System.Drawing.Size(142, 22);
             this.menuFuncionarios.Text = "Funcionários";
             this.menuFuncionarios.Click += new System.EventHandler(this.menuFuncionarios_Click);
             // 
@@ -170,6 +170,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::iRh.Windows.Properties.Resources.fundo;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuPrincipal);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
