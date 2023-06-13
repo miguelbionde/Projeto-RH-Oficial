@@ -48,6 +48,8 @@
   <ItemGroup>
     <Compile Include="Cadastros\Core\AdicionalFerias.cs" />
     <Compile Include="Cadastros\Core\AdicionalNoturno.cs" />
+    <Compile Include="Cadastros\Core\Colaborador.cs" />
+    <Compile Include="Cadastros\Core\Estados.cs" />
     <Compile Include="Cadastros\Core\Fgts.cs" />
     <Compile Include="Cadastros\Core\HoraExtra.cs" />
     <Compile Include="Cadastros\Core\Irrf.cs" />

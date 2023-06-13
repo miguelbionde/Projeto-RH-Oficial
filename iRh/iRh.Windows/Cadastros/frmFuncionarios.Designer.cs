@@ -28,138 +28,262 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.cmbGenero = new System.Windows.Forms.ComboBox();
-            this.rbTemFilhoSim = new System.Windows.Forms.RadioButton();
-            this.rbTemFilhosNão = new System.Windows.Forms.RadioButton();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtFilhoNome = new System.Windows.Forms.TextBox();
-            this.lblFilhoNome = new System.Windows.Forms.Label();
-            this.lblFilhoDataNascimento = new System.Windows.Forms.Label();
-            this.lblIdade = new System.Windows.Forms.Label();
-            this.panelExibeDadosFilhos = new System.Windows.Forms.Panel();
-            this.txtFilhoDataNascimento = new System.Windows.Forms.MaskedTextBox();
-            this.panelExibeDadosFilhos.SuspendLayout();
+            this.lblNome = new System.Windows.Forms.Label();
+            this.txtNome = new System.Windows.Forms.TextBox();
+            this.TxtCpf = new System.Windows.Forms.TextBox();
+            this.lblCpf = new System.Windows.Forms.Label();
+            this.lblDataNascimento = new System.Windows.Forms.Label();
+            this.txtCep = new System.Windows.Forms.TextBox();
+            this.txtNumero = new System.Windows.Forms.TextBox();
+            this.txtCidade = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.lblCep = new System.Windows.Forms.Label();
+            this.lblCidade = new System.Windows.Forms.Label();
+            this.lblLogradouro = new System.Windows.Forms.Label();
+            this.lblNumero = new System.Windows.Forms.Label();
+            this.lblEstado = new System.Windows.Forms.Label();
+            this.lblBairro = new System.Windows.Forms.Label();
+            this.lblDdd = new System.Windows.Forms.Label();
+            this.txtDdd = new System.Windows.Forms.TextBox();
+            this.txtBairro = new System.Windows.Forms.TextBox();
+            this.txtTelefone = new System.Windows.Forms.TextBox();
+            this.lblTelefone = new System.Windows.Forms.Label();
+            this.btnPesquisar = new System.Windows.Forms.Button();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.cmbEstados = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
-            // cmbGenero
+            // lblNome
             // 
-            this.cmbGenero.FormattingEnabled = true;
-            this.cmbGenero.Items.AddRange(new object[] {
-            "Feminino",
-            "Masculino",
-            "Neutro",
-            "Prefiro Não Dizer",
-            "Outros"});
-            this.cmbGenero.Location = new System.Drawing.Point(41, 29);
-            this.cmbGenero.Name = "cmbGenero";
-            this.cmbGenero.Size = new System.Drawing.Size(207, 21);
-            this.cmbGenero.TabIndex = 0;
+            this.lblNome.AutoSize = true;
+            this.lblNome.Location = new System.Drawing.Point(24, 46);
+            this.lblNome.Name = "lblNome";
+            this.lblNome.Size = new System.Drawing.Size(38, 13);
+            this.lblNome.TabIndex = 0;
+            this.lblNome.Text = "Nome:";
             // 
-            // rbTemFilhoSim
+            // txtNome
             // 
-            this.rbTemFilhoSim.AutoSize = true;
-            this.rbTemFilhoSim.Location = new System.Drawing.Point(41, 158);
-            this.rbTemFilhoSim.Name = "rbTemFilhoSim";
-            this.rbTemFilhoSim.Size = new System.Drawing.Size(42, 17);
-            this.rbTemFilhoSim.TabIndex = 1;
-            this.rbTemFilhoSim.TabStop = true;
-            this.rbTemFilhoSim.Text = "Sim";
-            this.rbTemFilhoSim.UseVisualStyleBackColor = true;
-            this.rbTemFilhoSim.CheckedChanged += new System.EventHandler(this.rbTemFilhoSim_CheckedChanged);
+            this.txtNome.Location = new System.Drawing.Point(27, 75);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(100, 20);
+            this.txtNome.TabIndex = 1;
             // 
-            // rbTemFilhosNão
+            // TxtCpf
             // 
-            this.rbTemFilhosNão.AutoSize = true;
-            this.rbTemFilhosNão.Location = new System.Drawing.Point(89, 158);
-            this.rbTemFilhosNão.Name = "rbTemFilhosNão";
-            this.rbTemFilhosNão.Size = new System.Drawing.Size(45, 17);
-            this.rbTemFilhosNão.TabIndex = 2;
-            this.rbTemFilhosNão.TabStop = true;
-            this.rbTemFilhosNão.Text = "Não";
-            this.rbTemFilhosNão.UseVisualStyleBackColor = true;
-            this.rbTemFilhosNão.CheckedChanged += new System.EventHandler(this.rbTemFilhosNão_CheckedChanged);
+            this.TxtCpf.Location = new System.Drawing.Point(165, 75);
+            this.TxtCpf.Name = "TxtCpf";
+            this.TxtCpf.Size = new System.Drawing.Size(100, 20);
+            this.TxtCpf.TabIndex = 2;
             // 
-            // label1
+            // lblCpf
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(38, 132);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 13);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Você tem filhos?";
+            this.lblCpf.AutoSize = true;
+            this.lblCpf.Location = new System.Drawing.Point(162, 45);
+            this.lblCpf.Name = "lblCpf";
+            this.lblCpf.Size = new System.Drawing.Size(30, 13);
+            this.lblCpf.TabIndex = 3;
+            this.lblCpf.Text = "CPF:";
             // 
-            // txtFilhoNome
+            // lblDataNascimento
             // 
-            this.txtFilhoNome.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtFilhoNome.Location = new System.Drawing.Point(9, 44);
-            this.txtFilhoNome.Name = "txtFilhoNome";
-            this.txtFilhoNome.Size = new System.Drawing.Size(100, 20);
-            this.txtFilhoNome.TabIndex = 4;
+            this.lblDataNascimento.AutoSize = true;
+            this.lblDataNascimento.Location = new System.Drawing.Point(287, 46);
+            this.lblDataNascimento.Name = "lblDataNascimento";
+            this.lblDataNascimento.Size = new System.Drawing.Size(104, 13);
+            this.lblDataNascimento.TabIndex = 4;
+            this.lblDataNascimento.Text = "Data de Nascimento";
             // 
-            // lblFilhoNome
+            // txtCep
             // 
-            this.lblFilhoNome.AutoSize = true;
-            this.lblFilhoNome.Location = new System.Drawing.Point(6, 19);
-            this.lblFilhoNome.Name = "lblFilhoNome";
-            this.lblFilhoNome.Size = new System.Drawing.Size(92, 13);
-            this.lblFilhoNome.TabIndex = 6;
-            this.lblFilhoNome.Text = "Nome do seu filho";
+            this.txtCep.Location = new System.Drawing.Point(27, 150);
+            this.txtCep.Name = "txtCep";
+            this.txtCep.Size = new System.Drawing.Size(100, 20);
+            this.txtCep.TabIndex = 6;
             // 
-            // lblFilhoDataNascimento
+            // txtNumero
             // 
-            this.lblFilhoDataNascimento.AutoSize = true;
-            this.lblFilhoDataNascimento.Location = new System.Drawing.Point(127, 19);
-            this.lblFilhoDataNascimento.Name = "lblFilhoDataNascimento";
-            this.lblFilhoDataNascimento.Size = new System.Drawing.Size(102, 13);
-            this.lblFilhoDataNascimento.TabIndex = 7;
-            this.lblFilhoDataNascimento.Text = "Data de nascimento";
+            this.txtNumero.Location = new System.Drawing.Point(148, 217);
+            this.txtNumero.Name = "txtNumero";
+            this.txtNumero.Size = new System.Drawing.Size(100, 20);
+            this.txtNumero.TabIndex = 7;
             // 
-            // lblIdade
+            // txtCidade
             // 
-            this.lblIdade.AutoSize = true;
-            this.lblIdade.Location = new System.Drawing.Point(236, 47);
-            this.lblIdade.Name = "lblIdade";
-            this.lblIdade.Size = new System.Drawing.Size(44, 13);
-            this.lblIdade.TabIndex = 8;
-            this.lblIdade.Text = "lblIdade";
+            this.txtCidade.Location = new System.Drawing.Point(27, 286);
+            this.txtCidade.Name = "txtCidade";
+            this.txtCidade.Size = new System.Drawing.Size(100, 20);
+            this.txtCidade.TabIndex = 9;
             // 
-            // panelExibeDadosFilhos
+            // textBox5
             // 
-            this.panelExibeDadosFilhos.Controls.Add(this.txtFilhoDataNascimento);
-            this.panelExibeDadosFilhos.Controls.Add(this.lblIdade);
-            this.panelExibeDadosFilhos.Controls.Add(this.txtFilhoNome);
-            this.panelExibeDadosFilhos.Controls.Add(this.lblFilhoDataNascimento);
-            this.panelExibeDadosFilhos.Controls.Add(this.lblFilhoNome);
-            this.panelExibeDadosFilhos.Location = new System.Drawing.Point(26, 181);
-            this.panelExibeDadosFilhos.Name = "panelExibeDadosFilhos";
-            this.panelExibeDadosFilhos.Size = new System.Drawing.Size(283, 108);
-            this.panelExibeDadosFilhos.TabIndex = 9;
+            this.textBox5.Location = new System.Drawing.Point(27, 217);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(100, 20);
+            this.textBox5.TabIndex = 10;
             // 
-            // txtFilhoDataNascimento
+            // lblCep
             // 
-            this.txtFilhoDataNascimento.Location = new System.Drawing.Point(130, 44);
-            this.txtFilhoDataNascimento.Mask = "00/00/0000";
-            this.txtFilhoDataNascimento.Name = "txtFilhoDataNascimento";
-            this.txtFilhoDataNascimento.Size = new System.Drawing.Size(100, 20);
-            this.txtFilhoDataNascimento.TabIndex = 10;
-            this.txtFilhoDataNascimento.ValidatingType = typeof(System.DateTime);
-            this.txtFilhoDataNascimento.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtFilhoDataNascimento_KeyDown);
+            this.lblCep.AutoSize = true;
+            this.lblCep.Location = new System.Drawing.Point(24, 123);
+            this.lblCep.Name = "lblCep";
+            this.lblCep.Size = new System.Drawing.Size(28, 13);
+            this.lblCep.TabIndex = 11;
+            this.lblCep.Text = "CEP";
+            // 
+            // lblCidade
+            // 
+            this.lblCidade.AutoSize = true;
+            this.lblCidade.Location = new System.Drawing.Point(24, 270);
+            this.lblCidade.Name = "lblCidade";
+            this.lblCidade.Size = new System.Drawing.Size(47, 13);
+            this.lblCidade.TabIndex = 12;
+            this.lblCidade.Text = "CIDADE";
+            // 
+            // lblLogradouro
+            // 
+            this.lblLogradouro.AutoSize = true;
+            this.lblLogradouro.Location = new System.Drawing.Point(24, 195);
+            this.lblLogradouro.Name = "lblLogradouro";
+            this.lblLogradouro.Size = new System.Drawing.Size(84, 13);
+            this.lblLogradouro.TabIndex = 13;
+            this.lblLogradouro.Text = "LOGRADOURO";
+            // 
+            // lblNumero
+            // 
+            this.lblNumero.AutoSize = true;
+            this.lblNumero.Location = new System.Drawing.Point(145, 195);
+            this.lblNumero.Name = "lblNumero";
+            this.lblNumero.Size = new System.Drawing.Size(55, 13);
+            this.lblNumero.TabIndex = 14;
+            this.lblNumero.Text = "NÚMERO";
+            // 
+            // lblEstado
+            // 
+            this.lblEstado.AutoSize = true;
+            this.lblEstado.Location = new System.Drawing.Point(145, 270);
+            this.lblEstado.Name = "lblEstado";
+            this.lblEstado.Size = new System.Drawing.Size(70, 13);
+            this.lblEstado.TabIndex = 15;
+            this.lblEstado.Text = "UF/ESTADO";
+            // 
+            // lblBairro
+            // 
+            this.lblBairro.AutoSize = true;
+            this.lblBairro.Location = new System.Drawing.Point(287, 195);
+            this.lblBairro.Name = "lblBairro";
+            this.lblBairro.Size = new System.Drawing.Size(48, 13);
+            this.lblBairro.TabIndex = 16;
+            this.lblBairro.Text = "BAIRRO";
+            // 
+            // lblDdd
+            // 
+            this.lblDdd.AutoSize = true;
+            this.lblDdd.Location = new System.Drawing.Point(24, 329);
+            this.lblDdd.Name = "lblDdd";
+            this.lblDdd.Size = new System.Drawing.Size(31, 13);
+            this.lblDdd.TabIndex = 17;
+            this.lblDdd.Text = "DDD";
+            // 
+            // txtDdd
+            // 
+            this.txtDdd.Location = new System.Drawing.Point(27, 345);
+            this.txtDdd.Name = "txtDdd";
+            this.txtDdd.Size = new System.Drawing.Size(28, 20);
+            this.txtDdd.TabIndex = 18;
+            // 
+            // txtBairro
+            // 
+            this.txtBairro.Location = new System.Drawing.Point(290, 217);
+            this.txtBairro.Name = "txtBairro";
+            this.txtBairro.Size = new System.Drawing.Size(91, 20);
+            this.txtBairro.TabIndex = 19;
+            // 
+            // txtTelefone
+            // 
+            this.txtTelefone.Location = new System.Drawing.Point(76, 345);
+            this.txtTelefone.Name = "txtTelefone";
+            this.txtTelefone.Size = new System.Drawing.Size(100, 20);
+            this.txtTelefone.TabIndex = 20;
+            // 
+            // lblTelefone
+            // 
+            this.lblTelefone.AutoSize = true;
+            this.lblTelefone.Location = new System.Drawing.Point(73, 329);
+            this.lblTelefone.Name = "lblTelefone";
+            this.lblTelefone.Size = new System.Drawing.Size(63, 13);
+            this.lblTelefone.TabIndex = 21;
+            this.lblTelefone.Text = "TELEFONE";
+            // 
+            // btnPesquisar
+            // 
+            this.btnPesquisar.Location = new System.Drawing.Point(148, 140);
+            this.btnPesquisar.Name = "btnPesquisar";
+            this.btnPesquisar.Size = new System.Drawing.Size(84, 33);
+            this.btnPesquisar.TabIndex = 22;
+            this.btnPesquisar.Text = "Pesquisar";
+            this.btnPesquisar.UseVisualStyleBackColor = true;
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Location = new System.Drawing.Point(187, 352);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(78, 13);
+            this.linkLabel2.TabIndex = 25;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "Chamar no zap";
+            // 
+            // maskedTextBox1
+            // 
+            this.maskedTextBox1.Location = new System.Drawing.Point(290, 75);
+            this.maskedTextBox1.Mask = "00/00/0000";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(112, 20);
+            this.maskedTextBox1.TabIndex = 26;
+            this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
+            // 
+            // cmbEstados
+            // 
+            this.cmbEstados.FormattingEnabled = true;
+            this.cmbEstados.Location = new System.Drawing.Point(148, 286);
+            this.cmbEstados.Name = "cmbEstados";
+            this.cmbEstados.Size = new System.Drawing.Size(121, 21);
+            this.cmbEstados.TabIndex = 27;
             // 
             // frmFuncionarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.panelExibeDadosFilhos);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.rbTemFilhosNão);
-            this.Controls.Add(this.rbTemFilhoSim);
-            this.Controls.Add(this.cmbGenero);
+            this.Controls.Add(this.cmbEstados);
+            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.linkLabel2);
+            this.Controls.Add(this.btnPesquisar);
+            this.Controls.Add(this.lblTelefone);
+            this.Controls.Add(this.txtTelefone);
+            this.Controls.Add(this.txtBairro);
+            this.Controls.Add(this.txtDdd);
+            this.Controls.Add(this.lblDdd);
+            this.Controls.Add(this.lblBairro);
+            this.Controls.Add(this.lblEstado);
+            this.Controls.Add(this.lblNumero);
+            this.Controls.Add(this.lblLogradouro);
+            this.Controls.Add(this.lblCidade);
+            this.Controls.Add(this.lblCep);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtCidade);
+            this.Controls.Add(this.txtNumero);
+            this.Controls.Add(this.txtCep);
+            this.Controls.Add(this.lblDataNascimento);
+            this.Controls.Add(this.lblCpf);
+            this.Controls.Add(this.TxtCpf);
+            this.Controls.Add(this.txtNome);
+            this.Controls.Add(this.lblNome);
             this.Name = "frmFuncionarios";
             this.Text = "frmFuncionarios";
             this.Load += new System.EventHandler(this.frmFuncionarios_Load);
-            this.panelExibeDadosFilhos.ResumeLayout(false);
-            this.panelExibeDadosFilhos.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -167,15 +291,29 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox cmbGenero;
-        private System.Windows.Forms.RadioButton rbTemFilhoSim;
-        private System.Windows.Forms.RadioButton rbTemFilhosNão;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtFilhoNome;
-        private System.Windows.Forms.Label lblFilhoNome;
-        private System.Windows.Forms.Label lblFilhoDataNascimento;
-        private System.Windows.Forms.Label lblIdade;
-        private System.Windows.Forms.Panel panelExibeDadosFilhos;
-        private System.Windows.Forms.MaskedTextBox txtFilhoDataNascimento;
+        private System.Windows.Forms.Label lblNome;
+        private System.Windows.Forms.TextBox txtNome;
+        private System.Windows.Forms.TextBox TxtCpf;
+        private System.Windows.Forms.Label lblCpf;
+        private System.Windows.Forms.Label lblDataNascimento;
+        private System.Windows.Forms.TextBox txtCep;
+        private System.Windows.Forms.TextBox txtNumero;
+        private System.Windows.Forms.TextBox txtCidade;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label lblCep;
+        private System.Windows.Forms.Label lblCidade;
+        private System.Windows.Forms.Label lblLogradouro;
+        private System.Windows.Forms.Label lblNumero;
+        private System.Windows.Forms.Label lblEstado;
+        private System.Windows.Forms.Label lblBairro;
+        private System.Windows.Forms.Label lblDdd;
+        private System.Windows.Forms.TextBox txtDdd;
+        private System.Windows.Forms.TextBox txtBairro;
+        private System.Windows.Forms.TextBox txtTelefone;
+        private System.Windows.Forms.Label lblTelefone;
+        private System.Windows.Forms.Button btnPesquisar;
+        private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.ComboBox cmbEstados;
     }
 }

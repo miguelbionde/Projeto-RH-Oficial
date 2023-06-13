@@ -1,4 +1,5 @@
-﻿using System;
+﻿using iRh.Windows.Cadastros.Core;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,43 +20,22 @@ namespace iRh.Windows.Cadastros
 
         private void frmFuncionarios_Load(object sender, EventArgs e)
         {
-            rbTemFilhosNão.Checked = true;
-            panelExibeDadosFilhos.Visible = false;
+            CarregarEstados();
         }
 
-        private void rbTemFilhoSim_CheckedChanged(object sender, EventArgs e)
+        private void CarregarEstados()
         {
-            panelExibeDadosFilhos.Visible = true;
+            var estado = new Estados();
+            var listaEstados = estado.ObterTodosEstados();
+
+            cmbEstados.Items.Clear();
+            cmbEstados.DataSource = listaEstados.OrderBy(x => x.Sigla);
+            cmbEstados.SelectedIndex = 0;
+            cmbEstados.DisplayMember = "Sigla";
+            cmbEstados.ValueMember = "Id";
+            
         }
 
-        private void rbTemFilhosNão_CheckedChanged(object sender, EventArgs e)
-        {
-            panelExibeDadosFilhos.Visible = false;
-        }
-
-        private void txtFilhoDataNascimento_TextChanged(object sender, EventArgs e)
-        {
-            var dataNascimento = DateTime.Parse(txtFilhoDataNascimento.Text);
-            var anoAtual = DateTime.Now.Year;
-            lblIdade.Text = (anoAtual - dataNascimento.Year).ToString();
-        }
-
-        private void txtFilhoDataNascimento_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                try
-                {
-                    var dataNascimento = DateTime.Parse(txtFilhoDataNascimento.Text);
-                    var anoAtual = DateTime.Now.Year;
-                    lblIdade.Text = (anoAtual - dataNascimento.Year).ToString();
-                }
-                
-                 catch (Exception ex)
-                {
-                    MessageBox.Show("A data de nascimento parece estar errada, detalhamento: " + ex);
-                }
-            }
-        }
+        
     }
 }
