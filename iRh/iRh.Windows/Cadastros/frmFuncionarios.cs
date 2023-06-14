@@ -21,6 +21,7 @@ namespace iRh.Windows.Cadastros
         private void frmFuncionarios_Load(object sender, EventArgs e)
         {
             CarregarEstados();
+            CarregarDocumentos();
         }
 
         private void CarregarEstados()
@@ -34,9 +35,27 @@ namespace iRh.Windows.Cadastros
             cmbEstados.DataSource = estadosAz;
             cmbEstados.DisplayMember = "Sigla";
             cmbEstados.ValueMember = "Nome";
-            
+
         }
 
-        
+        private void CarregarDocumentos()
+        {
+            var documento = new Identificacao();
+            var listaDocumentos = documento.ObterDocumentos();
+
+            cmbIdentificacao.Items.Clear();
+            var documentosAz = listaDocumentos.OrderBy(x => x.Documento).ToList();
+            cmbIdentificacao.DataSource = documentosAz;
+            cmbIdentificacao.DisplayMember = "Documento";
+            cmbIdentificacao.ValueMember = "Id";
+        }
+
+        private void btnPesquisar_Click(object sender, EventArgs e)
+        {
+            var cepDigitado = txtCep.Text;
+            var endereco = new Endereco();
+
+            var enderecoCompleto = endereco.ObterPorCep(cepDigitado);
+        }
     }
 }

@@ -52,6 +52,8 @@
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.cmbEstados = new System.Windows.Forms.ComboBox();
+            this.cmbIdentificacao = new System.Windows.Forms.ComboBox();
+            this.lblIdentificacao = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblNome
@@ -224,6 +226,7 @@
             this.btnPesquisar.TabIndex = 22;
             this.btnPesquisar.Text = "Pesquisar";
             this.btnPesquisar.UseVisualStyleBackColor = true;
+            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
             // 
             // linkLabel2
             // 
@@ -252,11 +255,30 @@
             this.cmbEstados.Size = new System.Drawing.Size(121, 21);
             this.cmbEstados.TabIndex = 27;
             // 
+            // cmbIdentificacao
+            // 
+            this.cmbIdentificacao.FormattingEnabled = true;
+            this.cmbIdentificacao.Location = new System.Drawing.Point(435, 74);
+            this.cmbIdentificacao.Name = "cmbIdentificacao";
+            this.cmbIdentificacao.Size = new System.Drawing.Size(241, 21);
+            this.cmbIdentificacao.TabIndex = 29;
+            // 
+            // lblIdentificacao
+            // 
+            this.lblIdentificacao.AutoSize = true;
+            this.lblIdentificacao.Location = new System.Drawing.Point(432, 46);
+            this.lblIdentificacao.Name = "lblIdentificacao";
+            this.lblIdentificacao.Size = new System.Drawing.Size(141, 13);
+            this.lblIdentificacao.TabIndex = 28;
+            this.lblIdentificacao.Text = "Documento de Identificação";
+            // 
             // frmFuncionarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.cmbIdentificacao);
+            this.Controls.Add(this.lblIdentificacao);
             this.Controls.Add(this.cmbEstados);
             this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.linkLabel2);
@@ -315,5 +337,7 @@
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
         private System.Windows.Forms.ComboBox cmbEstados;
+        private System.Windows.Forms.ComboBox cmbIdentificacao;
+        private System.Windows.Forms.Label lblIdentificacao;
     }
 }
