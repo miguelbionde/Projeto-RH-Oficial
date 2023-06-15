@@ -73,19 +73,29 @@ namespace iRh.Windows.Cadastros
                 cmbEstados.SelectedValue = enderecoCompleto.Uf;
 
 
-                if( txtCidade != null)
+                if( endereco.Localidade != "")
                 {
                     txtCidade.Enabled = false;
                 }
 
-                if ( txtDdd!= null)
+                if ( endereco.Ddd != "")
                 {
                     txtDdd.Enabled = false;
                 }
 
-                if ( cmbEstados != null)
+                if ( endereco.Uf != "")
                 {
                     cmbEstados.Enabled = false;
+                }
+
+                if(txtLogradouro != "")
+                {
+                    txtLogradouro.Enabled = false;
+                }
+
+                if(endereco.Bairro != "")
+                {
+                    txtBairro.Enabled = false;
                 }
             }
 
