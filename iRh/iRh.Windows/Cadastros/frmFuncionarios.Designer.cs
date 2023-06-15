@@ -33,10 +33,9 @@
             this.TxtCpf = new System.Windows.Forms.TextBox();
             this.lblCpf = new System.Windows.Forms.Label();
             this.lblDataNascimento = new System.Windows.Forms.Label();
-            this.txtCep = new System.Windows.Forms.TextBox();
             this.txtNumero = new System.Windows.Forms.TextBox();
             this.txtCidade = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtLogradouro = new System.Windows.Forms.TextBox();
             this.lblCep = new System.Windows.Forms.Label();
             this.lblCidade = new System.Windows.Forms.Label();
             this.lblLogradouro = new System.Windows.Forms.Label();
@@ -54,6 +53,7 @@
             this.cmbEstados = new System.Windows.Forms.ComboBox();
             this.cmbIdentificacao = new System.Windows.Forms.ComboBox();
             this.lblIdentificacao = new System.Windows.Forms.Label();
+            this.txtCep = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
             // lblNome
@@ -97,18 +97,11 @@
             this.lblDataNascimento.TabIndex = 4;
             this.lblDataNascimento.Text = "Data de Nascimento";
             // 
-            // txtCep
-            // 
-            this.txtCep.Location = new System.Drawing.Point(27, 150);
-            this.txtCep.Name = "txtCep";
-            this.txtCep.Size = new System.Drawing.Size(100, 20);
-            this.txtCep.TabIndex = 6;
-            // 
             // txtNumero
             // 
-            this.txtNumero.Location = new System.Drawing.Point(148, 217);
+            this.txtNumero.Location = new System.Drawing.Point(217, 217);
             this.txtNumero.Name = "txtNumero";
-            this.txtNumero.Size = new System.Drawing.Size(100, 20);
+            this.txtNumero.Size = new System.Drawing.Size(52, 20);
             this.txtNumero.TabIndex = 7;
             // 
             // txtCidade
@@ -118,12 +111,12 @@
             this.txtCidade.Size = new System.Drawing.Size(100, 20);
             this.txtCidade.TabIndex = 9;
             // 
-            // textBox5
+            // txtLogradouro
             // 
-            this.textBox5.Location = new System.Drawing.Point(27, 217);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 10;
+            this.txtLogradouro.Location = new System.Drawing.Point(27, 217);
+            this.txtLogradouro.Name = "txtLogradouro";
+            this.txtLogradouro.Size = new System.Drawing.Size(165, 20);
+            this.txtLogradouro.TabIndex = 10;
             // 
             // lblCep
             // 
@@ -155,7 +148,7 @@
             // lblNumero
             // 
             this.lblNumero.AutoSize = true;
-            this.lblNumero.Location = new System.Drawing.Point(145, 195);
+            this.lblNumero.Location = new System.Drawing.Point(214, 195);
             this.lblNumero.Name = "lblNumero";
             this.lblNumero.Size = new System.Drawing.Size(55, 13);
             this.lblNumero.TabIndex = 14;
@@ -173,7 +166,7 @@
             // lblBairro
             // 
             this.lblBairro.AutoSize = true;
-            this.lblBairro.Location = new System.Drawing.Point(287, 195);
+            this.lblBairro.Location = new System.Drawing.Point(312, 195);
             this.lblBairro.Name = "lblBairro";
             this.lblBairro.Size = new System.Drawing.Size(48, 13);
             this.lblBairro.TabIndex = 16;
@@ -197,9 +190,9 @@
             // 
             // txtBairro
             // 
-            this.txtBairro.Location = new System.Drawing.Point(290, 217);
+            this.txtBairro.Location = new System.Drawing.Point(315, 217);
             this.txtBairro.Name = "txtBairro";
-            this.txtBairro.Size = new System.Drawing.Size(91, 20);
+            this.txtBairro.Size = new System.Drawing.Size(136, 20);
             this.txtBairro.TabIndex = 19;
             // 
             // txtTelefone
@@ -272,11 +265,20 @@
             this.lblIdentificacao.TabIndex = 28;
             this.lblIdentificacao.Text = "Documento de Identificação";
             // 
+            // txtCep
+            // 
+            this.txtCep.Location = new System.Drawing.Point(27, 147);
+            this.txtCep.Mask = "00000-000";
+            this.txtCep.Name = "txtCep";
+            this.txtCep.Size = new System.Drawing.Size(112, 20);
+            this.txtCep.TabIndex = 30;
+            // 
             // frmFuncionarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtCep);
             this.Controls.Add(this.cmbIdentificacao);
             this.Controls.Add(this.lblIdentificacao);
             this.Controls.Add(this.cmbEstados);
@@ -294,10 +296,9 @@
             this.Controls.Add(this.lblLogradouro);
             this.Controls.Add(this.lblCidade);
             this.Controls.Add(this.lblCep);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtLogradouro);
             this.Controls.Add(this.txtCidade);
             this.Controls.Add(this.txtNumero);
-            this.Controls.Add(this.txtCep);
             this.Controls.Add(this.lblDataNascimento);
             this.Controls.Add(this.lblCpf);
             this.Controls.Add(this.TxtCpf);
@@ -318,10 +319,9 @@
         private System.Windows.Forms.TextBox TxtCpf;
         private System.Windows.Forms.Label lblCpf;
         private System.Windows.Forms.Label lblDataNascimento;
-        private System.Windows.Forms.TextBox txtCep;
         private System.Windows.Forms.TextBox txtNumero;
         private System.Windows.Forms.TextBox txtCidade;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtLogradouro;
         private System.Windows.Forms.Label lblCep;
         private System.Windows.Forms.Label lblCidade;
         private System.Windows.Forms.Label lblLogradouro;
@@ -339,5 +339,6 @@
         private System.Windows.Forms.ComboBox cmbEstados;
         private System.Windows.Forms.ComboBox cmbIdentificacao;
         private System.Windows.Forms.Label lblIdentificacao;
+        private System.Windows.Forms.MaskedTextBox txtCep;
     }
 }

@@ -33,8 +33,8 @@ namespace iRh.Windows.Cadastros
             var estadosAz = listaEstados.OrderBy(x => x.Sigla).ToList();
             cmbEstados.Items.Clear();
             cmbEstados.DataSource = estadosAz;
-            cmbEstados.DisplayMember = "Sigla";
-            cmbEstados.ValueMember = "Nome";
+            cmbEstados.DisplayMember = "Nome";
+            cmbEstados.ValueMember = "Sigla";
 
         }
 
@@ -52,10 +52,50 @@ namespace iRh.Windows.Cadastros
 
         private void btnPesquisar_Click(object sender, EventArgs e)
         {
+            
             var cepDigitado = txtCep.Text;
             var endereco = new Endereco();
-
+            if(cepDigitado.Length < 9)
+            {
+                MessageBox.Show("Informe um CEP válido", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtCep.Focus();
+                return;
+            }
             var enderecoCompleto = endereco.ObterPorCep(cepDigitado);
+
+
+            try
+            {
+                txtLogradouro.Text = enderecoCompleto.Logradouro;
+                txtBairro.Text = enderecoCompleto.Bairro;
+                txtCidade.Text = enderecoCompleto.Localidade;
+                txtDdd.Text = enderecoCompleto.Ddd;
+                cmbEstados.SelectedValue = enderecoCompleto.Uf;
+
+
+                if( txtCidade != null)
+                {
+                    txtCidade.Enabled = false;
+                }
+
+                if ( txtDdd!= null)
+                {
+                    txtDdd.Enabled = false;
+                }
+
+                if ( cmbEstados != null)
+                {
+                    cmbEstados.Enabled = false;
+                }
+            }
+
+            catch (Exception)
+            {
+                MessageBox.Show("Informe um CEP válido", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtCep.Focus();
+                return;
+            }
+
         }
     }
 }
