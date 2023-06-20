@@ -88,7 +88,7 @@ namespace iRh.Windows.Simuladores
                 lblResultadoIr.Text = "Imposto de Renda: - " + resultadoIr.ToString("C");
                 lblResultadoAdicionais.Text = "Total adicionais: " + resultadoTotalAdicionais.ToString("C");
                 lblResultadoDescontos.Text = "Total descontos: " + resultadoTotalDescontos.ToString("C");
-                lblResultadoSalarioLiquido.Text = "Salário líquito: " + resultadoSalarioLiquido.ToString("C"); 
+                lblResultadoSalarioLiquido.Text = "Salário líquido: " + resultadoSalarioLiquido.ToString("C"); 
             }
             catch (Exception)
             {
