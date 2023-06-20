@@ -49,17 +49,39 @@ namespace iRh.Windows.Simuladores
                 var adicionalNoturno = double.Parse(txtAdicionalNoturno.Text);
                 var horaTrabalhada = double.Parse(txtHoraTrabalhada.Text);
 
+                var resultadoValeTransporte = 0.0;
+                var resultadoPericulosidade = 0.0;
                 var salarioBruto = valorHora * horaTrabalhada;
                 var resultadoHoraExtra = HoraExtra.Calcular(valorHora, horaExtra);
                 var resultadoAdicionalNoturno = AdicionalNoturno.Calcular(valorHora, adicionalNoturno);
-                var resultadoPericulosidade = Periculosidade.Calcular(salarioBruto);
                 var resultadoFgts = Fgts.Calcular(salarioBruto);
-                var resultadoValeTransporte = ValeTransporte.Calcular(salarioBruto);
+                if (cmbValeTransporte.Text == "Sim")
+                {
+                    resultadoPericulosidade = Periculosidade.Calcular(salarioBruto);
+                }
+                else
+                {
+                    resultadoPericulosidade = 0.0;
+                }                
+                if (cmbValeTransporte.Text == "Sim")
+                {
+                    resultadoValeTransporte = ValeTransporte.Calcular(salarioBruto);
+                }
+                else
+                {
+                    resultadoValeTransporte = 0.0;
+                }
                 var resultadoInss = Inss.Calcular(salarioBruto);
                 var resultadoIr = Irrf.Calcular(salarioBruto);
-                var resultadoTotalAdicionais = 
-                lblResultadoSalarioBruto.Text = "R$" + salarioBruto;
-                lblResultadoHoraExtra.Text = "R$" + resultadoHoraExtra;
+                var resultadoTotalAdicionais = Detalhamento.ResultadoAdicionais(valorHora, horaExtra, adicionalNoturno, horaTrabalhada, resultadoPericulosidade);
+                var resultadoTotalDescontos = Detalhamento.ResultadoDescontos(salarioBruto, resultadoValeTransporte);
+
+                pnlResultado.Visible = true;
+                lblResultadoSalarioBruto.Text = "Salário base: R$" + salarioBruto;
+                lblResultadoHoraExtra.Text = "Horas extras: R$" + resultadoHoraExtra;
+                lblResultadoAdicionalNoturno.Text = "Noturno: R$" + resultadoAdicionalNoturno;
+                lblResultdoPericulosidade.Text = "Periculosidade: R$" + resultadoPericulosidade;
+                lblResultadoFgts.Text = "FGTS: R$" + resultadoFgts;
                 lblResultadoSalarioBruto.Visible = true;
             }
             catch (Exception)

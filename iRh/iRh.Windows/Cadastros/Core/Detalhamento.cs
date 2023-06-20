@@ -8,13 +8,20 @@ namespace iRh.Windows.Cadastros.Core
 {
     class Detalhamento
     {
-        public static double ResultadoAdicionais(double valorHora, double horaExtra, double adicionalNoturno, double horaTrabalhada)
+        public static double ResultadoAdicionais(double valorHora, double horaExtra, double adicionalNoturno, double horaTrabalhada, double resultadoPericulosidade)
         {
             var salario = valorHora * horaTrabalhada;
             var resultadoHoraExtra = HoraExtra.Calcular(valorHora, horaExtra);
-            var resultadoPericulosidade = Periculosidade.Calcular(salario);
             var resultadoAdicionalNoturno = AdicionalNoturno.Calcular(valorHora, adicionalNoturno);
             return resultadoAdicionalNoturno + resultadoHoraExtra + resultadoPericulosidade;
+        }
+
+        public static double ResultadoDescontos(double salarioBruto, double resultadoValeTransporte)
+        {
+            
+            var inss = Inss.Calcular(salarioBruto);
+            var irrf = Irrf.Calcular(salarioBruto);
+            return inss + irrf + resultadoValeTransporte;
         }
     }
 }
