@@ -87,16 +87,6 @@ namespace iRh.Windows.Cadastros
                 {
                     cmbEstados.Enabled = false;
                 }
-
-                if(txtLogradouro != "")
-                {
-                    txtLogradouro.Enabled = false;
-                }
-
-                if(endereco.Bairro != "")
-                {
-                    txtBairro.Enabled = false;
-                }
             }
 
             catch (Exception)

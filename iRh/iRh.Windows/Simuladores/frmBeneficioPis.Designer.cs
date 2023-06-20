@@ -38,11 +38,11 @@
             this.lblSalario = new System.Windows.Forms.Label();
             this.lblResultado = new System.Windows.Forms.Label();
             this.panelSalario = new System.Windows.Forms.Panel();
+            this.txtMesTrabalhado = new System.Windows.Forms.TextBox();
+            this.lblMesTrabalhado = new System.Windows.Forms.Label();
+            this.btnCalcular = new System.Windows.Forms.Button();
             this.txtSalario = new System.Windows.Forms.TextBox();
             this.panelResultado = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.lblMesTrabalhado = new System.Windows.Forms.Label();
-            this.txtMesTrabalhado = new System.Windows.Forms.TextBox();
             this.panelTempoAnoBase.SuspendLayout();
             this.panelSalario.SuspendLayout();
             this.panelResultado.SuspendLayout();
@@ -155,7 +155,7 @@
             // 
             this.panelSalario.Controls.Add(this.txtMesTrabalhado);
             this.panelSalario.Controls.Add(this.lblMesTrabalhado);
-            this.panelSalario.Controls.Add(this.button1);
+            this.panelSalario.Controls.Add(this.btnCalcular);
             this.panelSalario.Controls.Add(this.txtSalario);
             this.panelSalario.Controls.Add(this.lblSalario);
             this.panelSalario.Location = new System.Drawing.Point(399, 43);
@@ -163,6 +163,34 @@
             this.panelSalario.Size = new System.Drawing.Size(338, 179);
             this.panelSalario.TabIndex = 8;
             this.panelSalario.Visible = false;
+            // 
+            // txtMesTrabalhado
+            // 
+            this.txtMesTrabalhado.Location = new System.Drawing.Point(7, 124);
+            this.txtMesTrabalhado.Multiline = true;
+            this.txtMesTrabalhado.Name = "txtMesTrabalhado";
+            this.txtMesTrabalhado.Size = new System.Drawing.Size(113, 29);
+            this.txtMesTrabalhado.TabIndex = 13;
+            // 
+            // lblMesTrabalhado
+            // 
+            this.lblMesTrabalhado.AutoSize = true;
+            this.lblMesTrabalhado.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMesTrabalhado.Location = new System.Drawing.Point(4, 80);
+            this.lblMesTrabalhado.Name = "lblMesTrabalhado";
+            this.lblMesTrabalhado.Size = new System.Drawing.Size(183, 34);
+            this.lblMesTrabalhado.TabIndex = 12;
+            this.lblMesTrabalhado.Text = "Digite a quantidade de meses\r\n trabalhados no ano-base:";
+            // 
+            // btnCalcular
+            // 
+            this.btnCalcular.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalcular.Location = new System.Drawing.Point(204, 30);
+            this.btnCalcular.Name = "btnCalcular";
+            this.btnCalcular.Size = new System.Drawing.Size(102, 36);
+            this.btnCalcular.TabIndex = 11;
+            this.btnCalcular.Text = "Calcular PIS";
+            this.btnCalcular.UseVisualStyleBackColor = true;
             // 
             // txtSalario
             // 
@@ -180,35 +208,6 @@
             this.panelResultado.Size = new System.Drawing.Size(406, 100);
             this.panelResultado.TabIndex = 9;
             this.panelResultado.Visible = false;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(204, 30);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(102, 36);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Calcular PIS";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // lblMesTrabalhado
-            // 
-            this.lblMesTrabalhado.AutoSize = true;
-            this.lblMesTrabalhado.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMesTrabalhado.Location = new System.Drawing.Point(4, 80);
-            this.lblMesTrabalhado.Name = "lblMesTrabalhado";
-            this.lblMesTrabalhado.Size = new System.Drawing.Size(183, 34);
-            this.lblMesTrabalhado.TabIndex = 12;
-            this.lblMesTrabalhado.Text = "Digite a quantidade de meses\r\n trabalhados no ano-base:";
-            // 
-            // txtMesTrabalhado
-            // 
-            this.txtMesTrabalhado.Location = new System.Drawing.Point(7, 124);
-            this.txtMesTrabalhado.Multiline = true;
-            this.txtMesTrabalhado.Name = "txtMesTrabalhado";
-            this.txtMesTrabalhado.Size = new System.Drawing.Size(113, 29);
-            this.txtMesTrabalhado.TabIndex = 13;
             // 
             // frmBeneficioPis
             // 
@@ -249,7 +248,7 @@
         private System.Windows.Forms.Panel panelSalario;
         private System.Windows.Forms.TextBox txtSalario;
         private System.Windows.Forms.Panel panelResultado;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.TextBox txtMesTrabalhado;
         private System.Windows.Forms.Label lblMesTrabalhado;
     }

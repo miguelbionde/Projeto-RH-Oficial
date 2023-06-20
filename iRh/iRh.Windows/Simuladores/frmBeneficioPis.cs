@@ -52,7 +52,7 @@ namespace iRh.Windows.Simuladores
             lblResultado.Text = "Não tem direito ao PIS";
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnCalcular_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(txtSalario.Text))
             {

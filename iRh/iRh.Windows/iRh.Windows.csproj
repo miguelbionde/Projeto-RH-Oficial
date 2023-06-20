@@ -52,6 +52,7 @@
     <Compile Include="Cadastros\Core\AdicionalFerias.cs" />
     <Compile Include="Cadastros\Core\AdicionalNoturno.cs" />
     <Compile Include="Cadastros\Core\Colaborador.cs" />
+    <Compile Include="Cadastros\Core\Detalhamento.cs" />
     <Compile Include="Cadastros\Core\Endereco.cs" />
     <Compile Include="Cadastros\Core\Estados.cs" />
     <Compile Include="Cadastros\Core\Fgts.cs" />
@@ -142,6 +143,12 @@
     <Compile Include="Simuladores\frmDescontoIrrf.Designer.cs">
       <DependentUpon>frmDescontoIrrf.cs</DependentUpon>
     </Compile>
+    <Compile Include="Simuladores\frmDetalhamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Simuladores\frmDetalhamento.Designer.cs">
+      <DependentUpon>frmDetalhamento.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Cadastros\frmFuncionarios.resx">
       <DependentUpon>frmFuncionarios.cs</DependentUpon>
     </EmbeddedResource>
@@ -190,6 +197,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Simuladores\frmDescontoIrrf.resx">
       <DependentUpon>frmDescontoIrrf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Simuladores\frmDetalhamento.resx">
+      <DependentUpon>frmDetalhamento.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
