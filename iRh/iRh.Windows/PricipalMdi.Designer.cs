@@ -44,6 +44,7 @@
             this.menuBenefícioPIS = new System.Windows.Forms.ToolStripMenuItem();
             this.menuBenefícioSeguroDesempregp = new System.Windows.Forms.ToolStripMenuItem();
             this.menuBenefícioVAleTransporte = new System.Windows.Forms.ToolStripMenuItem();
+            this.detalhamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -86,7 +87,8 @@
             this.menuBenefícioPericulosidade,
             this.menuBenefícioPIS,
             this.menuBenefícioSeguroDesempregp,
-            this.menuBenefícioVAleTransporte});
+            this.menuBenefícioVAleTransporte,
+            this.detalhamentoToolStripMenuItem});
             this.simuladoresToolStripMenuItem.Name = "simuladoresToolStripMenuItem";
             this.simuladoresToolStripMenuItem.Size = new System.Drawing.Size(84, 20);
             this.simuladoresToolStripMenuItem.Text = "Simuladores";
@@ -166,6 +168,13 @@
             this.menuBenefícioVAleTransporte.Text = "Benefício de Vale Transporte";
             this.menuBenefícioVAleTransporte.Click += new System.EventHandler(this.menuBenefícioVAleTransporte_Click);
             // 
+            // detalhamentoToolStripMenuItem
+            // 
+            this.detalhamentoToolStripMenuItem.Name = "detalhamentoToolStripMenuItem";
+            this.detalhamentoToolStripMenuItem.Size = new System.Drawing.Size(249, 22);
+            this.detalhamentoToolStripMenuItem.Text = "Detalhamento";
+            this.detalhamentoToolStripMenuItem.Click += new System.EventHandler(this.detalhamentoToolStripMenuItem_Click);
+            // 
             // PricipalMdi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -204,5 +213,6 @@
         private System.Windows.Forms.ToolStripMenuItem menuBenefícioPIS;
         private System.Windows.Forms.ToolStripMenuItem menuBenefícioSeguroDesempregp;
         private System.Windows.Forms.ToolStripMenuItem menuBenefícioVAleTransporte;
+        private System.Windows.Forms.ToolStripMenuItem detalhamentoToolStripMenuItem;
     }
 }

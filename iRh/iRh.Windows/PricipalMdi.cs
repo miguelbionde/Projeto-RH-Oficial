@@ -95,5 +95,12 @@ namespace iRh.Windows
             form.MdiParent = this;
             form.Show();
         }
+
+        private void detalhamentoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var form = new frmDetalhamento();
+            form.MdiParent = this;
+            form.Show();
+        }
     }
 }

@@ -33,7 +33,7 @@ namespace iRh.Windows.Simuladores
             {
                 var salario = double.Parse(txtSalario.Text);
                 var descontoInss = Inss.Calcular(salario);
-                lblResultado.Text = "R$" + descontoInss.ToString("C");
+                lblResultado.Text = descontoInss.ToString("C");
                 lblResultado.Visible = true;
             }
             catch (Exception)

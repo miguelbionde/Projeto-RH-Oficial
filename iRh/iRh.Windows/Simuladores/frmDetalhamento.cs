@@ -75,14 +75,20 @@ namespace iRh.Windows.Simuladores
                 var resultadoIr = Irrf.Calcular(salarioBruto);
                 var resultadoTotalAdicionais = Detalhamento.ResultadoAdicionais(valorHora, horaExtra, adicionalNoturno, horaTrabalhada, resultadoPericulosidade);
                 var resultadoTotalDescontos = Detalhamento.ResultadoDescontos(salarioBruto, resultadoValeTransporte);
+                var resultadoSalarioLiquido = Detalhamento.ResultadoSalarioLiquido(salarioBruto, resultadoTotalAdicionais, resultadoTotalDescontos);
 
                 pnlResultado.Visible = true;
-                lblResultadoSalarioBruto.Text = "Salário base: R$" + salarioBruto;
-                lblResultadoHoraExtra.Text = "Horas extras: R$" + resultadoHoraExtra;
-                lblResultadoAdicionalNoturno.Text = "Noturno: R$" + resultadoAdicionalNoturno;
-                lblResultdoPericulosidade.Text = "Periculosidade: R$" + resultadoPericulosidade;
-                lblResultadoFgts.Text = "FGTS: R$" + resultadoFgts;
-                lblResultadoSalarioBruto.Visible = true;
+                lblResultadoSalarioBruto.Text = "Salário base: + " + salarioBruto.ToString("C");
+                lblResultadoHoraExtra.Text = "Horas extras: + " + resultadoHoraExtra.ToString("C");
+                lblResultadoAdicionalNoturno.Text = "Noturno: + " + resultadoAdicionalNoturno.ToString("C");
+                lblResultdoPericulosidade.Text = "Periculosidade: + " + resultadoPericulosidade.ToString("C");
+                lblResultadoFgts.Text = "FGTS: + " + resultadoFgts.ToString("C");
+                lblResultadoValeTrasnporte.Text = "Vale transporte: - " + resultadoValeTransporte.ToString("C");
+                lblResultadoInss.Text = "INSS: - " + resultadoInss.ToString("C");
+                lblResultadoIr.Text = "Imposto de Renda: - " + resultadoIr.ToString("C");
+                lblResultadoAdicionais.Text = "Total adicionais: " + resultadoTotalAdicionais.ToString("C");
+                lblResultadoDescontos.Text = "Total descontos: " + resultadoTotalDescontos.ToString("C");
+                lblResultadoSalarioLiquido.Text = "Salário líquito: " + resultadoSalarioLiquido.ToString("C"); 
             }
             catch (Exception)
             {
