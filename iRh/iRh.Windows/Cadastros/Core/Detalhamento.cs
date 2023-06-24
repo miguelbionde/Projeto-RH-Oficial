@@ -28,5 +28,10 @@ namespace iRh.Windows.Cadastros.Core
         {
             return salarioBruto + totalAdicionais - totalDescontos;
         }
+
+        public static double ResultadoSalarioBruto(double valorHora, double horaTrabalhada)
+        {
+            return valorHora * horaTrabalhada;
+        }
     }
 }

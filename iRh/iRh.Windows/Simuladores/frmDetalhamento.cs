@@ -51,7 +51,7 @@ namespace iRh.Windows.Simuladores
 
                 var resultadoValeTransporte = 0.0;
                 var resultadoPericulosidade = 0.0;
-                var salarioBruto = valorHora * horaTrabalhada;
+                var salarioBruto = Detalhamento.ResultadoSalarioBruto(valorHora, horaTrabalhada);
                 var resultadoHoraExtra = HoraExtra.Calcular(valorHora, horaExtra);
                 var resultadoAdicionalNoturno = AdicionalNoturno.Calcular(valorHora, adicionalNoturno);
                 var resultadoFgts = Fgts.Calcular(salarioBruto);
